@@ -1,0 +1,57 @@
+\contentsline {chapter}{Acknowledgement}{i}
+\contentsline {chapter}{List of Figures}{v}
+\contentsline {chapter}{List of Tables}{vi}
+\contentsline {chapter}{General introduction}{1}
+\ttl@change@i {\@ne }{chapter}{0pt}{\vspace {1ex}}{\bfseries \chaptername ~\thecontentslabel :\quad }{\bfseries }{\bfseries \hfill \contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\contentsline {chapter}{\numberline {1}Preliminary Study }{2}
+\contentsline {section}{Introduction}{2}
+\contentsline {section}{\numberline {1.1}Analysis of the existing}{2}
+\contentsline {subsection}{\numberline {1.1.1}Social media}{2}
+\contentsline {subsection}{\numberline {1.1.2}Google maps}{4}
+\contentsline {subsection}{\numberline {1.1.3}Bakery days}{5}
+\contentsline {subsection}{\numberline {1.1.4}YELP}{5}
+\contentsline {subsection}{\numberline {1.1.5}Criticism of the existing}{7}
+\contentsline {section}{\numberline {1.2}Solution and requirements}{8}
+\contentsline {subsection}{\numberline {1.2.1}Proposed Solution}{8}
+\contentsline {subsection}{\numberline {1.2.2}Requirements}{8}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Functional requirements}{9}
+\contentsline {subsubsection}{\numberline {1.2.2.2}Non-Functional requirements}{10}
+\contentsline {section}{\numberline {1.3}Used methodology}{10}
+\contentsline {section}{\numberline {1.4}Use case diagram}{11}
+\contentsline {subsection}{\numberline {1.4.1}Actors}{12}
+\contentsline {subsection}{\numberline {1.4.2}Modeling Language}{12}
+\contentsline {subsection}{\numberline {1.4.3}Use case: web}{12}
+\contentsline {subsubsection}{\numberline {1.4.3.1}General user case}{12}
+\contentsline {subsubsection}{\numberline {1.4.3.2}Administrator's detailed use case diagrams}{15}
+\contentsline {subsubsection}{\numberline {1.4.3.3}Pastry manager's detailed use case diagrams }{16}
+\contentsline {subsection}{\numberline {1.4.4}Use case: Mobile}{18}
+\contentsline {subsubsection}{\numberline {1.4.4.1}General use case}{18}
+\contentsline {subsubsection}{\numberline {1.4.4.2}Detailed use case}{18}
+\contentsline {section}{Conclusion}{18}
+\contentsline {chapter}{\numberline {2}Conception}{19}
+\contentsline {section}{Introduction}{19}
+\contentsline {section}{\numberline {2.1}Architecture}{19}
+\contentsline {subsection}{\numberline {2.1.1}Mobile}{19}
+\contentsline {subsection}{\numberline {2.1.2}Web}{19}
+\contentsline {section}{\numberline {2.2}Class diagram}{19}
+\contentsline {section}{\numberline {2.3}Interaction sequence diagram}{22}
+\contentsline {subsection}{\numberline {2.3.1}Web}{22}
+\contentsline {subsection}{\numberline {2.3.2}Mobile}{22}
+\contentsline {section}{Conclusion}{22}
+\contentsline {chapter}{\numberline {3}Realization}{23}
+\contentsline {section}{Introduction}{23}
+\contentsline {section}{\numberline {3.1}Choice of the architecture}{23}
+\contentsline {section}{\numberline {3.2}Used technologies and frameworks}{23}
+\contentsline {section}{\numberline {3.3}Used software}{23}
+\contentsline {section}{\numberline {3.4}Implementation}{23}
+\contentsline {subsection}{\numberline {3.4.1}Web}{23}
+\contentsline {subsubsection}{\numberline {3.4.1.1}Shared interface}{23}
+\contentsline {subsubsection}{\numberline {3.4.1.2}Administrator's interface}{23}
+\contentsline {subsubsection}{\numberline {3.4.1.3}Bakery manager's interface}{23}
+\contentsline {subsection}{\numberline {3.4.2}Mobile}{23}
+\contentsline {section}{Conclusion}{23}
+\contentsline {chapter}{General conclusion}{25}
+\contentsline {chapter}{Bibliography}{26}
+\contentsline {chapter}{Appendix}{27}
+\contentsfinish 

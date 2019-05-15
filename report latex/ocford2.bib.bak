@@ -1,0 +1,30 @@
+% Encoding: UTF-8
+
+@Misc{spring,
+  author       = {Spring.io},
+  title        = {Spring},
+  howpublished = {\url {https://spring.io/}},
+}
+
+@Misc{Vmodel,
+  author       = {Ulf Eriksson},
+  title        = {Why is it important to know the difference between V-Model and Scrum?},
+  howpublished = {\url {https://reqtest.com/agile-blog/v-model-versus-scrum-who-wins/}},
+}
+
+@Misc{idc,
+  author       = {idc},
+  title        = {Worldwide smartphone OS market share},
+  howpublished = {\url {https://www.idc.com/promo/smartphone-market-share/os}},
+}
+
+@InProceedings{usecase,
+  author       = {Grechanik, Mark and McKinley, Kathryn S and Perry, Dewayne E},
+  title        = {Recovering and using use-case-diagram-to-source-code traceability links},
+  booktitle    = {Proceedings of the the 6th joint meeting of the European software engineering conference and the ACM SIGSOFT symposium on The foundations of software engineering},
+  year         = {2007},
+  pages        = {95--104},
+  organization = {ACM},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
