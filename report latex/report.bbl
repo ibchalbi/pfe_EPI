@@ -1,7 +1,48 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
-\bibitem{phillips2013android}
-B.~Phillips and B.~Hardy, ``Android programming: The big nerd ranch guide, big
-  nerd ranch,'' 2013.
+\bibitem{articalefacebook}
+M.~Mohsin, ``10 social media statistics you need to know in 2019
+  [infographic],'' {\em Oberlo}, 2019.
+
+\bibitem{scrumBook}
+K.~Schwaber, {\em Agile Project Management with Scrum}.
+\newblock Microsoft Press, 2004.
+
+\bibitem{umlBook}
+M.~Fowler, {\em UML Distilled}.
+\newblock Addison-Wesley, 2014.
+
+\bibitem{mvc}
+A.~Kumar, {\em Sencha MVC architecture}.
+\newblock Packt Publishing Ltd, 2012.
+
+\bibitem{Mvvm}
+J.~Kouraklis, {\em MVVM in Delphi}.
+\newblock APPRESS, 2016.
+
+\bibitem{kotlinbook}
+S.~I. Dmitry~Jemerov, {\em Kotlin in Action}.
+\newblock Manning Publications Company, 2017.
+
+\bibitem{phpbook}
+D.~Powers, {\em PHP Solutions: Dynamic Web Design Made Easy}.
+\newblock Apress company, 2011.
+
+\bibitem{laravelBook}
+M.~Stauffer, {\em Laravel: Up and Running: A Framework for Building Modern PHP
+  Apps}.
+\newblock O'reilly books, 2017.
+
+\bibitem{vuejsbook}
+K.~M. Alex~Kyriakidis, {\em The Majesty of Vue.js}.
+\newblock Packt publishing pvt. ltd, 2016.
+
+\bibitem{swaggerArticle}
+C.~Pietschmann, ``Swagger is now the openapi specification,'' {\em Buildazure},
+  2017.
+
+\bibitem{latexBook}
+D.~J.~H. David F.~Griffiths, {\em Learning LaTeX: Second Edition}.
+\newblock The society for industrial and applied mathematics, 2016.
 
 \end{thebibliography}

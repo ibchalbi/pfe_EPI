@@ -89,6 +89,11 @@
 	long  = Progressive web app ,
 	class = abbrev
 }
+\DeclareAcronym{3d}{
+	short = 3D ,
+	long  =Three Dimensional ,
+	class = abbrev
+}
 \DeclareAcronym{php}{
 	short = PHP ,
 	long  = Hypertext Preprocessor  ,
@@ -169,10 +174,24 @@
 	\chapter*{\centering Acknowledgment}
 	\addcontentsline{toc}{chapter}{Acknowledgement}
 	
-	I would like to express my deepest appreciation to all those who aide me to complete this report.  A special gratitude is giving to my final year project  manager, Mr. \textsc{Bayrem TRIKI}, whose contribution in stimulating suggestions and encouragement,  helped me to coordinate this project especially in writing this report. And a special thanks goes to my supervisor Mr. \textsc{Anis Ben Bettaieb}, who guided me throughout the development of  \textbf{``Cake it up !''} application.\\
+	I would like to express my deepest appreciation to all those who aide me to complete this report.  A special gratitude is giving to my final year project  manager, Mr. \textsc{Bayrem TRIKI}, whose contribution in stimulating suggestions and encouragement,  helped me to coordinate this project especially in writing this report.\\
 	
-	Furthermore I would also like to acknowledge with much appreciation the crucial role of the school EPI, who gave the permission to use all required  equipment and the necessary materials to complete this project. Finally, we have to appreciate the guidance will be given by other supervisor, especially in my project exposition that will surely improve my presentation skills thanks to their comment and advices.
+	 A special thanks goes to my supervisor Mr. \textsc{Anis Ben Bettaieb}, who guided me throughout the development of  \textbf{``Cake it up !''} application.\\
 	
+	Furthermore I would also like to acknowledge with much appreciation the crucial role of \textbf{Anypli} company, who gave the permission to use all required  equipment and the necessary materials to complete this project. \\
+	
+
+	Finally, I have to appreciate the guidance will be given by other supervisor, especially in my project exposition that will surely improve my presentation skills thanks to their comment and advices.
+	\cleardoublepage
+	\chapter*{\centering Dedication}
+	This report is dedicated to my mother \textbf{Fatiha}, for her kindness and devotion, and for her endless support, thanks for always being there for me.
+	I would like to express my gratitude towards my father  \textbf{Mohamed} who is my role model and mentor.\\
+	
+	 My sisters \textbf{Khawla}, \textbf{Imen}, \textbf{Ikhtiyar} and \textbf{Wafa} who were more than helpful morally, so proud to have them as my backup.\\
+	 
+	  A special thanks goes to the one who is the most helpful and supporting person I know \textbf{Ahmed}, thank you so much for being there for me.\\
+	  
+	  Finally I would like to thank my best friends \textbf{Sirine}, \textbf{Ons} and \textbf{Sarra} for standing by me at all costs, which made it easy for me to get past all the difficult situation. \\
 	%content
 	\cleardoublepage
 	\tableofcontents
@@ -241,7 +260,7 @@
 	This section will start by listing some of the applications or ways people use to get information about pastries, then criticize every one of them to show what is missing.
 	
 	\subsubsection*{Social media}
-	The mostly common way is using the social media such as \textbf{``FACEBOOK''} and \textbf{``INSTAGRAM''} where you can find a verity of choices and number of opinions that can guide the user to select the right place.\par We can also use it to figure out the cost of the meal or get direction as shown in Figure \ref{label-facebook}.
+	The mostly common way is using the social media such as \textbf{``FACEBOOK''} and \textbf{``INSTAGRAM''} where you can find a verity of choices and number of opinions that can guide the user to select the right place. \cite{articalefacebook}\par We can also use it to figure out the cost of the meal or get direction as shown in Figure \ref{label-facebook}.
 	\par The social media also give you the ability to communicate with the manager of the place in private to either pass an order or to ask for more details regarding a specific product.  \par
 	\begin{figure}[H]
 		\centering
@@ -349,10 +368,18 @@
 	In one hand, the mobile part will be dedicated to the clients everywhere. It provides an easier way to view all the pastries nearby or far away and get access to all their product's information (price, description, ...). In addition to that he can pass orders from his phone. He also has the capability to rate and give his own opinion about the bakeries or even block/report a shop. Finally, he can create his own cake design in 3D (forms, layers, colors, perfumes, ...). \par
 	On the other hand, the web application is accessible for bakeries owners, so they can contribute by adding their place to the application with detailed description of their products (prices, ingredients, ...). The owner can also manage the orders of his clients or report any suspicious ones. The application gives also a daily statistic of the shop and its performance.
 	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=5in,keepaspectratio]{logowithtxt.png}
+		\caption{ Cake It Up logo\protect\refstepcounter{footnote}\protect\footnotemark[\thefootnote]}
+		
+		
+		\label{logo-ciu}
+	\end{figure}
 	
 	\section{Used methodology}
 	
-	For this project, we used the SCRUM design methodology which is an agile project management framework used primarily for software development projects to provide a new software capability every 2 to 4 weeks , that allows us to conduct our project well while organizing our work plan.\par 
+	For this project, we used the SCRUM design methodology which is an agile project management framework used primarily for software development projects to provide a new software capability every 2 to 4 weeks , that allows us to conduct our project well while organizing our work plan. \cite{scrumBook}\par 
 	The choice of the Agile method was based on five main factors that are taken into consideration to validate the applicability of this method:\par
 	
 	\begin{itemize}
@@ -363,7 +390,6 @@
 		\item Presence of the user providing immediate feedback.
 		
 	\end{itemize}
-	\clearpage
 	For the realization of the project, the Scrum methodology used is an agile methodology dedicated to project management. The specificity of the Scrum method is its flexibility, as well as the self-organization of the development team. We chose this method because it applies well to the project because of its exploratory nature.\par
 	Instead of performing a complete and complete project planning from the start, the work is organized in increments (called sprints) planned as the work progresses. This makes it possible to concentrate efforts on the rapid production of testable and functional elements, while keeping a certain flexibility with respect to the hazards that may arise.\par
 	\begin{figure}[H]
@@ -397,17 +423,15 @@
 			\captionsetup[table]{skip=10pt}
 			\setlength\doublerulesep{0.5pt}
 			\begin{tabular}{|l|p{5cm}|p{8cm}| } 
-				\hline\hline
+				\hline
 				\rowcolor{LightCyan}
 				& \textbf{Actor}   & \textbf{Role}                                                                                 \\
-				\hline
 				\hline
 				\multirow{3}{*}{\textbf{Web} }
 				
 				& Pastry manager   & He is the owner of the pastry, he is responsible for the managing of his own bakery.          \\
 				\cline{2-3}
 				& Administrator    & This is a secondary actor, he has access to all the data of both web and mobile applications. \\
-				\hline
 				\hline
 				\textbf{Mobile} & Customer/Visitor & He has only access to the mobile application.                                                 \\
 				
@@ -533,7 +557,14 @@
 				As an authorized User i want to logout.&                        
 				High &                        
 				Low
-				
+				\\
+				\cline{3-6}
+				&                        
+				&                        
+				1.4 &                        
+				As an unauthorized User i want to reset my password.&                        
+				High &                        
+				High
 					\\
 				\hline
 				\multirow{2}{*}{\textbf{2} }
@@ -1396,7 +1427,7 @@
 		\end{center}
 	\end{table}
 	\subsection{Class diagram}
-	Class diagrams are one of the most useful types of diagrams in \ac{uml} as they clearly map out the structure of a particular system by modeling its classes, attributes, operations, and relationships between objects.
+	Class diagrams are one of the most useful types of diagrams in \ac{uml} \cite{umlBook} as they clearly map out the structure of a particular system by modeling its classes, attributes, operations, and relationships between objects.
 	
 	
 	
@@ -1550,15 +1581,52 @@
 
 All these elements are grouped in the figure: \ref{label-archi} store of Vuex. The possibility of spreading
 the state in several modules allows to manage several different states in the single store of
-the application.\par
+the application. For the android part, we have decided to go with MVP along with Retrofit.\par
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.5in,height=4.9in]{archi.png}
+	\caption{Project architecture}
+	\label{label-archi}
+\end{figure}
+ We will be explaining each and every design pattern used in this application:\par
+\textbf{MVC}: This pattern was used for the back-end of the application, this pattern is actually used in Laravel which we will be using to create our APIs. MVC stands for Model-View-Controller as shown in Figure \ref{mvc}. \cite{mvc}\par 
+\begin{itemize}
+	\item \textbf{Model:} is the object carrying the data.
+	\item \textbf{View:} the data in the model will be visible to the user via this pasrt.
+	\item \textbf{Controller:} as for the controller is where we can find all the updates done on the model and sends them to the view.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4in,keepaspectratio]{mvc_pattern.png}
+	\caption{MVC pattern}
+	\label{mvc}
+\end{figure}
+\textbf{MVP}: For the android application we decided on using the MVP pattern to make our code cleaner and easier to understand. \par 
+\begin{itemize}
+	\item \textbf{Model:} Model is where the business logic and application data is stored.
+	\item \textbf{View:} View is basically a passive interface cum UI which is responsible for routing user’s action to the presenter. In Android, View can be your Activity, fragment or RecyclerView Adapters.
+	\item \textbf{Presenter:} Is the middleman or mediator between View and Model which hold responsibilities of everything which has to deal with presentation logic in your application.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=4in,keepaspectratio]{mvp-patern.png}
+	\caption{MVP pattern}
+	\label{mvp}
+\end{figure}
+\textbf{MVVM}:The MVVM design pattern (model, view, view-style) is a derivative of the MVC design model. The principle of this design pattern is to separate into three layers (model, view, view-style) where the view always receives the actions of the user and only interacts with the ViewModel, and the model communicates with the server and notifies the View-Model of the changes made.\cite{Mvvm} \par 
+\begin{itemize}
+	\item \textbf{Model:} The model contains the data. Typically, this data comes from a database or an external service such as an API.
+	\item \textbf{View (Vue):} he view corresponds to what is displayed (the web interface). The view contains the different graphic components (buttons, links, lists) as well as the text.
+	\item \textbf{ViewModel (Model View):}  This component is the link between the model and the view. It takes care of managing data links and eventual conversions. This is where the binding comes in.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{mvvm-pettern.png}
+	\caption{MVVM pattern}
+	\label{mvvm}
+\end{figure}
 
-For the android part, we have decided to go with MVP along with Retrofit.
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=6.7in,keepaspectratio]{archi.png}
-		\caption{Project architecture}
-		\label{label-archi}
-	\end{figure}
+	
 	\section{Programming languages}
 	\subsection{Kotlin}
 	\begin{wrapfigure}{L}{0.2\linewidth}
@@ -1566,7 +1634,7 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\includegraphics[width=0.8in]{kotlin-logo.png}	
 	\end{wrapfigure}
 	We decided on using \textbf{``kotlin''} as an Android development language, seen it is the a perfect fit and considering the multiple advantages \textbf{``Kotlin''} has to offer.\par 
-	\textbf{``Kotlin''} is the new open source programming language supported by Google. Its main goal is to improve the productivity of developers, while remaining compatible with the existing code. It is an object-oriented and functional programming language that can also be called a multi-paradigm language.\par 
+	\textbf{``Kotlin''} is the new open source programming language supported by Google. Its main goal is to improve the productivity of developers, while remaining compatible with the existing code. It is an object-oriented and functional programming language that can also be called a multi-paradigm language.\cite{kotlinbook}\par 
 	As we can see in Figure \ref{kotlin-label}, \textbf{``Kotlin''} has experienced strong growth in Android application development since May, after Google announced its official support in Android Studio. This is revealed by the Realm barometer, as part of its latest quarterly report.
 	\begin{figure}[H]
 		\centering
@@ -1581,7 +1649,7 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\centering
 		\includegraphics[width=0.8in]{PHP-logo.png}	
 	\end{wrapfigure}
-	As for backend it is natural that we will be working with \textbf{``\ac{php}''} since we chose Laravel as our backend framework.\par 
+	As for backend it is natural that we will be working with \textbf{``\ac{php}''} since we chose Laravel as our backend framework. \cite{phpbook}\par 
 	\textbf{``PHP''} is a server scripting language, specially designed for the development of web applications. It can be easily integrated with HTML. \par 
 	It is common for this language to be associated with a database, such as My\ac{sql}. Executed on the server side there is no need for visitors to have particular software or plugins.
 	\subsection{JavaScript}
@@ -1604,22 +1672,23 @@ For the android part, we have decided to go with MVP along with Retrofit.
 	\subsubsection*{Retrofit Android}
 	\textbf{``Retrofit''} is type-safe REST client for Android and Java which aims to make it easier to consume Representational State Transfer (\ac{rest}ful) web services. \par 
 	It will save our development time, And also we can keep our code in developer friendly. Retrofit has given almost all the \ac{api}'s to make server call and to receive response.
-	\clearpage
+
 	\subsection{Laravel}
 	\begin{wrapfigure}{L}{0.2\linewidth}
 		\centering
 		\includegraphics[width=0.8in]{LaravelLogo.png}
 	\end{wrapfigure}
-	\textbf{``Laravel''} is a framework that has existed since 2011 but has exploded recently and seems to attract a lot of developers, is a PHP framework that offers tools to build a web application. Laravel's creator, Taylor Otwel, has simply grouped together the best libraries for every feature needed to create a website.
+	\textbf{``Laravel''} is a framework that has existed since 2011 but has exploded recently and seems to attract a lot of developers, is a PHP framework that offers tools to build a web application. Laravel's creator, Taylor Otwel, has simply grouped together the best libraries for every feature needed to create a website. \cite{laravelBook}
 	\subsection{VueJS}
 	\begin{wrapfigure}{L}{0.2\linewidth}
 		\centering
 		\includegraphics[width=0.8in]{vue-logo.png}	
 	\end{wrapfigure}
-	\textbf{``VueJS''} was our chose for the front end of the we application, since it is Flexible and easy to use.\par 
+	\textbf{``VueJS''} was our chose for the front end of the we application, since it is Flexible and easy to use. \cite{vuejsbook}\par 
 	\textbf{``VueJS''} is a JavaScript UI library. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with modern tooling and supporting libraries. 
 	\par 
 	When comparing it with its competitors, including Angular, React, Ember, Aurelia, etc., Vue boasts of beating some of them in certain aspects. These aspects include simple \ac{api}, size, performance, learning curve, etc.
+	\clearpage
 	\subsubsection*{Vuetify}
 	\begin{wrapfigure}{L}{0.2\linewidth}
 		\centering
@@ -1656,14 +1725,13 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\caption{Vuex work flow}
 		\label{label-vuex}
 	\end{figure}
-	\clearpage
 	\subsection{Swagger}
 		\begin{wrapfigure}{L}{0.2\linewidth}
 		\centering
 		\includegraphics[width=0.8in]{Swagger-logo.png}	
 		
 	\end{wrapfigure}
-	\textbf{``Swagger''} tools were used to document the APIs of our application, which made it easier to test our APIs before using them. \textbf{``Swagger''} is a specification for documenting REST API. It specifies the format (URL, method, and representation) to describe REST web services. The methods, parameters, and models description are tightly integrated into the server code, thereby maintaining the synchronization in APIs and its documentation.
+	\textbf{``Swagger''} tools were used to document the APIs of our application, which made it easier to test our APIs before using them. \textbf{``Swagger''} is a specification for documenting REST API. It specifies the format (URL, method, and representation) to describe REST web services. The methods, parameters, and models description are tightly integrated into the server code, thereby maintaining the synchronization in APIs and its documentation.\cite{swaggerArticle}
 	\section{Used software}
 	\subsection{Android studio}
 	\begin{wrapfigure}{L}{0.2\linewidth}
@@ -1672,7 +1740,7 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		
 	\end{wrapfigure}
 	We chose \textbf{``Android Studio''}; also developed by \textbf{``JETBRAINS''} for GOOGLE's operating system, as an IDE to develop our android application. Android Studio is fully featured \ac{ide} designed specifically for Android development. Automatically, it integrates the \ac{sdk} that enables developers to create applications for the Android platform\footnote{https://developer.android.com/studio/}.\par
-	
+	\clearpage
 	\subsection{Visual studio code}
 	\begin{wrapfigure}{L}{0.2\linewidth}
 		\centering
@@ -1697,13 +1765,13 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\includegraphics[width=0.6in]{staruml.png}
 	\end{wrapfigure}
 	We used \textbf{``Star UML''} to concept our different application's diagrams. Star UML is developed by \textbf{``MKLAB''}. It is an open source project to develop fast, flexible, and extensible UML conceptions' diagrams\footnote{staruml.io/}.\\
-	
+	\clearpage
 	\subsection{TexStudio}
 	\begin{wrapfigure}{l}{0.1\linewidth}
 		\centering
 		\includegraphics[width=0.6in]{texstudio.png}
 	\end{wrapfigure}
-	We used \textbf{``TexStudio''}\footnote{https://www.texstudio.org/} as an IDE for creating our \textbf{``Latex''} report. As we used \textbf{``JABREF''}\footnote{http://www.jabref.org/} to include the bibliography in our document. \LaTeX~is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation as it is the de facto standard for the communication and publication of scientific documents.
+	We used \textbf{``TexStudio''}\footnote{https://www.texstudio.org/} as an IDE for creating our \textbf{``Latex''} report. As we used \textbf{``JABREF''}\footnote{http://www.jabref.org/} to include the bibliography in our document. \LaTeX~is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation as it is the de facto standard for the communication and publication of scientific documents.\cite{latexBook}
 	
 	\subsection{SourceTree}
 	\begin{wrapfigure}{l}{0.1\linewidth}
@@ -1815,6 +1883,31 @@ For the android part, we have decided to go with MVP along with Retrofit.
 			&                        
 			1.3.C &                        
 			Test the logout model.
+			\\
+			\cline{2-5}  
+			
+			&                       
+			1.4  &  
+			\multirow{2}{4cm}{As an 
+				unauthorized User i want to reset my password.}
+			
+			&				                      
+			1.4.A &                        
+			Make the diagrams needed for this \ac{us}.
+			\\ 
+			\cline{4-5}    
+			&                   
+			&                                 
+			&                        
+			1.4.B &                        
+			Develop the reset password model.
+			\\ 
+			\cline{4-5}    
+			&                   
+			&                                 
+			&                        
+			1.4.C &                        
+			Test the reset password model.
 			\\ \hline
 			\multirow{5}{3cm}{\textbf{Sprint 2} \textbf{Manage account} }
 			&                       
@@ -1909,23 +2002,7 @@ For the android part, we have decided to go with MVP along with Retrofit.
 			&                        
 			3.3.C &                        
 			Test the list of pastries model.
-			\\
-			\cline{2-5}  
 			
-			&                       
-			3.4  &  
-			\multirow{2}{4cm}{As an administrator i want to activate or dis-activate a pastry.}
-			
-			&				                      
-			3.4.A &                        
-			Make the diagrams needed for this \ac{us}.
-			\\ 
-			\cline{4-5}    
-			&                   
-			&                                 
-			&                        
-			3.4.B &                        
-			Develop the activation/dis-activation pastry model.
 			
 			
 			
@@ -1941,7 +2018,24 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\begin{center}
 			\setlength\doublerulesep{0.5pt}
 			\begin{tabular}{|  p{3cm}|  p{1cm}| p{4cm}|  p{1cm}| p{6cm}|}
+			
+				\cline{2-5}  
 				
+				&                       
+				3.4  &  
+				\multirow{2}{4cm}{As an administrator i want to activate or dis-activate a pastry.}
+				
+				&				                      
+				3.4.A &                        
+				Make the diagrams needed for this \ac{us}.
+				\\ 
+				\cline{4-5}    
+				&                   
+				&                                 
+				&                        
+				3.4.B &                        
+				Develop the activation/dis-activation pastry model.
+				\\
 				\cline{4-5}    
 				&                   
 				&                                 
@@ -2069,33 +2163,7 @@ For the android part, we have decided to go with MVP along with Retrofit.
 				&                        
 				4.3.C &                        
 				Test the list of products model.
-				\\
-				\cline{2-5}  
-				
-				&                       
-				4.4  &  
-				\multirow{2}{4cm}{As a pastry owner i want to archive a product.}
-				
-				&				                      
-				4.4.A &                        
-				Make the diagrams needed for this \ac{us}.
-				\\ 
-				\cline{4-5}    
-				&                   
-				&                                 
-				&                        
-				4.4.B &                        
-				Develop the archive a product model.
-				\\ 
-				\cline{4-5}    
-				&                   
-				&                                 
-				&                        
-				4.4.C &                        
-				Test the archive a product model.
-				
-				\\
-				\hline
+			
 				
 				
 				
@@ -2104,13 +2172,50 @@ For the android part, we have decided to go with MVP along with Retrofit.
 		\end{center}
 		
 	\end{table}
+	\begin{table}[H]
+	\begin{center}
+		\setlength\doublerulesep{0.5pt}
+		\begin{tabular}{|  p{3cm}|  p{1cm}| p{4cm}|  p{1cm}| p{6cm}|}
+			
+		
+		\cline{2-5}  
+		
+		&                       
+		4.4  &  
+		\multirow{2}{4cm}{As a pastry owner i want to archive a product.}
+		
+		&				                      
+		4.4.A &                        
+		Make the diagrams needed for this \ac{us}.
+		\\ 
+		\cline{4-5}    
+		&                   
+		&                                 
+		&                        
+		4.4.B &                        
+		Develop the archive a product model.
+		\\ 
+		\cline{4-5}    
+		&                   
+		&                                 
+		&                        
+		4.4.C &                        
+		Test the archive a product model.
+		
+		\\
+		\hline
+			
+		\end{tabular}
+		
+	\end{center}
+	
+\end{table}
 \section{Use case}
 \subsection{Use case diagram}
 We will be deviding the use case of the release 1 depending on each sprint, starting by the first sprint \textbf{``Authentication''} presented in Figure \ref{auth-diag}.
 \begin{figure}[H]
-	\vspace*{2cm}
 	\centering
-	\includegraphics[width=7.2in,keepaspectratio]{auth.png}
+	\includegraphics[width=6in,keepaspectratio]{auth.png}
 	\caption{Use case Authentication}
 	\label{auth-diag}
 \end{figure}
@@ -2386,6 +2491,162 @@ As we descried before this sprint has four U.S:
 	\label{product-sequence}
 \end{figure}
 \section{Implementation}
+	We will be presenting the different interface of our mobile and web application for this release.\par
+\subsection{Web}
+\subsubsection*{Sprint "Authentication"}
+Starting by the authentication (login, register, reset password, logout), Figure \ref{register-interface} shows the interface for the register task for the web application where the use have to fill in the form in order to create a pastry owner account, all the entered data has to be valid, in case of an error the system will show the user where is the mistake.
+\begin{figure}[H]
+	\vspace*{2cm}
+	\centering
+	\includegraphics[width=7in,keepaspectratio]{register.png}
+	\caption{Register interface web}
+	\label{register-interface}
+\end{figure}
+\clearpage
+As shown in Figure \ref{login-interface}, the interface of login is simple and elegant, the user will fill in the data and login if no error has been displayed.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6.5in,keepaspectratio]{login.png}
+	\caption{Login interface web}
+	\label{login-interface}
+\end{figure}
+In case the used forgot his password, he can rest it by entering his email as shown in Figure \ref{resetpassword-interface}, a mail bill be send to him with the code needed to reset the password, once he entered the code, it will be verified if it is the right one the system will show the next step which is resetting the password.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6.5in,keepaspectratio]{reset-password.png}
+	\caption{Reset password interface web}
+	\label{resetpassword-interface}
+\end{figure}
+\clearpage
+Once the use has been logged in he has the ability to logout by a simple click as presented in Figure \ref{logout-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.5in,keepaspectratio]{logout.png}
+	\caption{Logout interface web}
+	\label{logout-interface}
+\end{figure}
+\subsubsection*{Sprint "Manage account"}
+Both the web users (Administrator and pastry owner) have the permission to edit their account, they can change the email and their password as well.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{manageaccountAdmin.png}
+	\caption{Edit account interface web}
+	\label{editaccountadmin-interface}
+\end{figure} 
+\subsubsection*{Sprint "Manage pastries"}
+The administrator can view the list of all pastries where he can access to just one of them, block them, activate or dis-activate them as we can see in Figure \ref{pastrylist-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{pastry-list.png}
+	\caption{List of pastries interface web}
+	\label{pastrylist-interface}
+\end{figure} 
+
+We have already gave a detailed description of the task edit pastry, only the pastry owner can edit his own pastry, as shown in Figure \ref{editpastry-interface} the user can make a lot of changes depending on his choice.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{edit-pastry.png}
+	\caption{Edit pastry interface web}
+	\label{editpastry-interface}
+\end{figure} 
+
+\subsubsection*{Sprint "Manage products"}
+Figure \ref{productlist-interface} gives us an idea about what the list of product look like in the web application, the list is click-able, a click will take you to the specific product, you can also access the edit mode and archive a product from it.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{productlist.png}
+	\caption{Product list interface web}
+	\label{productlist-interface}
+\end{figure} 
+Adding a product can be found only on the web side where a pastry owner can describe his product and fill in all the forms.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.5in,keepaspectratio]{addproduct.png}
+	\caption{Add product interface}
+	\label{addproduct-interface}
+\end{figure} 
+The pastry owner can edit his product and change any information he wants as long as it is valid.
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=7in,keepaspectratio]{editproduct.png}
+	\caption{Edit product interface}
+	\label{editproduct-interface}
+\end{figure} 
+\clearpage
+\subsection{mobile}
+\subsubsection*{Sprint "Authentication"}
+The client won't have access to his profile unless he loges in, the interface shown in Figure \ref{accountnonconnect-mobile-interface} presents the layout showed when the user is a visitor.
+
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{accountnotconnectedlogin.jpg}
+	\caption{Profile non connected mobile interface}
+	\label{accountnonconnect-mobile-interface}
+\end{figure} 
+\clearpage
+To create an account, the client just needs to fill in the form show in Figure \ref{register-mobile-interface}.
+\begin{figure}[H]
+		\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{registermobile.jpg}
+	\caption{Register mobile interface}
+	\label{register-mobile-interface}
+\end{figure} 
+\clearpage
+Once the account is created, the client can login by filling in the valid information.
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{loginmobile.jpg}
+	\caption{Login mobile interface}
+	\label{login-mobile-interface}
+\end{figure} 
+\clearpage
+\subsubsection*{Sprint "Manage account"}
+Once the use is logged in he have access to his own profile where he can find his personal information.
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{profilemobile.jpg}
+	\caption{Profile view mobile interface}
+	\label{profilemobile-interface}
+\end{figure}
+\clearpage
+The client can edit his profile as shown in Figure \ref{editprofilemobile-interface}.
+\begin{figure}[H]
+		\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{editprofilemobile.jpg}
+	\caption{Edit profile mobile interface}
+	\label{editprofilemobile-interface}
+\end{figure}
+\clearpage
+Resetting a password has the same process as the web application.
+\begin{figure}[H]
+			\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{resetpasswordmobile.jpg}
+	\caption{Reset password mobile interface}
+	\label{resetpasswordmobile-interface}
+\end{figure}
+
+\subsubsection*{Sprint "Manage pastries"}
+The list of pastries is accessible to all users the only difference is that some function are not allowed if you are not logged in.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{pastriesListmobile.jpg}
+	\caption{List of pastries mobile interface}
+	\label{pastriesListmobile-interface}
+\end{figure}
+A single pastry can be viewed by clicking on one of the pastries in the previous interface.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{showpastrymobile.jpg}
+	\caption{View pastry mobile interface}
+	\label{showpastrymobile-interface}
+\end{figure}
 
 \section{Release retrospective}
 	After the first sprint, we did the tests to see if
@@ -3005,7 +3266,7 @@ Figure \ref{complains-sequence} is giving us a detailed description of the way o
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=7in,keepaspectratio]{managecomplains.jpg}
+	\includegraphics[width=7in,height=8in]{managecomplains.jpg}
 	\caption{Manage complains sequence diagram}
 	\label{complains-sequence}
 \end{figure}
@@ -3013,15 +3274,67 @@ Figure \ref{complains-sequence} is giving us a detailed description of the way o
 \subsubsection*{Sequence diagram "Manage reports"}
 Figure \ref{reports-sequence} is a representation of the needed steps to the third sprint of this release, the actors are all involved in this sprint to either view list of reports for the administrator, or reporting a pastry for the client, or reporting a pastry for the pastry owner.
 \begin{figure}[H]
-		\vspace*{2cm}
 	\centering
-	\includegraphics[width=7in,keepaspectratio]{managerepors.jpg}
+	\includegraphics[width=7in,height=7.5in]{managerepors.jpg}
 	\caption{Manage reports sequence diagram}
 	\label{reports-sequence}
 \end{figure}
 \clearpage
 	\section{Implementation}
-	
+	In this section we will present our interfaces for the four sprints in this release.
+\subsection{Web}
+\subsubsection*{Sprint "Manage clients"}
+Sprint manage clients has three different tasks where the administrator can view the list of clients as shown in Figure \ref{listclients-interface}, via this interface he can also block a client.
+\begin{figure}[H]
+	\centering
+	\vspace*{1in}
+	\includegraphics[width=7in,keepaspectratio]{listclients.png}
+	\caption{List of clients interface web}
+	\label{listclients-interface}
+\end{figure} 
+\clearpage
+\subsubsection*{Sprint "Manage complains"}
+The pastry owner can view the complains that were send by their clients.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{complainslist.png}
+	\caption{List of complains interface web}
+	\label{complainslist-interface}
+\end{figure}
+He can also reply to a complain as shown in Figure \ref{replytocomplain-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{replytocomplain.png}
+	\caption{Reply to complain interface web}
+	\label{replytocomplain-interface}
+\end{figure}
+
+\subsubsection*{Sprint "Manage reports"}
+The reports do not really have that much to be done on but they are really important, the administrator is the only user authorized to access the list of reports.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{listreports.png}
+	\caption{List of reports interface web}
+	\label{listreports-interface}
+\end{figure}
+
+\subsubsection*{Sprint "Manage events"}
+The events or orders can be view in the calender interface as shown in Figure \ref{listevents-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{listevents.png}
+	\caption{Calender interface web}
+	\label{listevents-interface}
+\end{figure}
+To add an event all the user has to do is fill in the form that is shown in Figure \ref{addevent-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=5.6in,keepaspectratio]{addevent.png}
+	\caption{Add event interface web}
+	\label{addevent-interface}
+\end{figure}
+
+\subsection{Mobile}
 	\section{Release retrospective}
 		Finishing this release, we had to test every sprint where we decided on these retrospectives:\\
 	\begin{itemize}
@@ -3338,7 +3651,7 @@ Figure \ref{reports-sequence} is a representation of the needed steps to the thi
 			
 			&                       
 			13.4  &  
-			\multirow{2}{4cm}{As a client i want to change the state of an order.}
+			\multirow{2}{4cm}{As a pastry owner i want to change the state of an order.}
 			
 			&				                      
 			13.4.A &                        
@@ -3760,10 +4073,79 @@ Finally the sprint cart \textbf{Manage personal orders} is shown in Figure \ref{
 			
 		\end{table}
 \section{Sequence diagram}
+\subsubsection*{Sequence diagram "Manage cart"}
+Figure \ref{cart-sequence} is a representation of the needed steps to the sprint \textbf{"Manage cart"} where we only have the client as an actor, he have multiple choices and tasks that can be done such as view the cart's details that includes the list of products exists in the cart currently and the price of the whole order, in order to access the cart, the cart presented will ask for the cart's information from the repository and the repository will send an API call to the server asking for data, once the data is received they are send back to the repository and back to the presented , the presenter will just show them to the user and so on for all the other tasks.
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=7in,keepaspectratio]{manageCartSeq.jpg}
+	\caption{Manage cart sequence diagram}
+	\label{cart-sequence}
+\end{figure}
+\clearpage
+\subsubsection*{Sequence diagram "Manage orders"}
+Sprint 13 is \textbf{Manage orders} where the client and the pastry owner are the main actors,the client is the one who creates the order and sends it to the pastry owner. As showing in Figure \ref{orders-sequence} the interaction between the web and mobile clients are not the same, the client use MVP pattern while the pastry owner uses \ac{mvvm} patter and for the back-end it uses the Mvc pattern.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=7in,height=7in]{manageOrdersSeq.jpg}
+	\caption{Manage orders sequence diagram}
+	\label{orders-sequence}
+\end{figure}
 	\section{Implementation}
+\subsection{Web}
+\subsubsection*{Sprint "Manage reviews"}
+The list of reviews giving by the clients can be seen in the pastry section.
+\begin{figure}[H]
+	\centering
+	\vspace*{1in}
+	\includegraphics[width=7in,keepaspectratio]{edit-pastry.png}
+	\caption{List of reviews Interface web}
+	\label{avis-interface}
+\end{figure}
+\clearpage
+\subsubsection*{Sprint "Manage orders"}
+The pastry owner can view his own orders as shown in Figure \ref{orderslist-interface}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{orderslist.png}
+	\caption{List of orders Interface web}
+	\label{orderslist-interface}
+\end{figure}
+The status of an order can be change by the pastry owner but only after a confirmation as hown in Figure \ref{changestate-interface}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=6in,keepaspectratio]{changestate.png}
+	\caption{Edit order Interface web}
+	\label{changestate-interface}
+\end{figure}
 
+\subsection{Mobile}
 	\section{Release retrospective}
-	
+		Finishing this release, we had to test every sprint where we decided on these retrospectives:\\
+	\begin{itemize}
+		\item	What went well:
+		\begin{itemize}
+			\item The tasks of this module went well except the \ac{3d} modeling of personal order.
+		\end{itemize}
+	\end{itemize}
+	\begin{itemize}
+		\item	What went wrong:
+		\begin{itemize}
+			\item Nothing.
+		\end{itemize}
+	\end{itemize}
+	\begin{itemize}
+		\item	What was not realized:
+		\begin{itemize}
+			\item 3D personal order.
+		\end{itemize}
+	\end{itemize}
+	\begin{itemize}
+		\item	What can be improved:
+		\begin{itemize}
+			\item the presentation of the interfaces can be improved
+		\end{itemize}
+	\end{itemize}
 	\section*{Conclusion}
 	\addcontentsline{toc}{section}{Conclusion}
 	During this chapter, we developed the last release and the last phase of the system, by the passage on the sprint backlog, the design and the realization of each sprint. The next step is to close this report with a general conclusion followed by future perspectives.
