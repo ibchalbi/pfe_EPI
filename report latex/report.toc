@@ -62,32 +62,32 @@
 \contentsline {section}{\numberline {4.4}Implementation}{57}
 \contentsline {subsection}{\numberline {4.4.1}Web}{57}
 \contentsline {subsection}{\numberline {4.4.2}mobile}{63}
-\contentsline {section}{\numberline {4.5}Release retrospective}{70}
-\contentsline {section}{Conclusion}{71}
-\contentsline {chapter}{\numberline {5}Release 2}{72}
-\contentsline {section}{Introduction}{72}
-\contentsline {section}{\numberline {5.1}Backlog}{72}
-\contentsline {section}{\numberline {5.2}Use case}{75}
-\contentsline {subsection}{\numberline {5.2.1}Use case diagram}{75}
-\contentsline {subsection}{\numberline {5.2.2}Use case description}{78}
-\contentsline {section}{\numberline {5.3}Sequence diagram}{81}
-\contentsline {section}{\numberline {5.4}Implementation}{84}
-\contentsline {subsection}{\numberline {5.4.1}Web}{84}
-\contentsline {subsection}{\numberline {5.4.2}Mobile}{87}
-\contentsline {section}{\numberline {5.5}Release retrospective}{87}
-\contentsline {section}{Conclusion}{88}
-\contentsline {chapter}{\numberline {6}Release 3}{89}
-\contentsline {section}{Introduction}{89}
-\contentsline {section}{\numberline {6.1}Backlog}{89}
-\contentsline {section}{\numberline {6.2}Use case}{92}
-\contentsline {subsection}{\numberline {6.2.1}Use case diagrams}{92}
-\contentsline {subsection}{\numberline {6.2.2}Use case description}{95}
-\contentsline {section}{\numberline {6.3}Sequence diagram}{99}
-\contentsline {section}{\numberline {6.4}Implementation}{102}
-\contentsline {subsection}{\numberline {6.4.1}Web}{102}
-\contentsline {subsection}{\numberline {6.4.2}Mobile}{104}
-\contentsline {section}{\numberline {6.5}Release retrospective}{104}
-\contentsline {section}{Conclusion}{104}
-\contentsline {chapter}{General conclusion}{105}
-\contentsline {chapter}{Bibliography}{106}
+\contentsline {section}{\numberline {4.5}Release retrospective}{68}
+\contentsline {section}{Conclusion}{68}
+\contentsline {chapter}{\numberline {5}Release 2}{69}
+\contentsline {section}{Introduction}{69}
+\contentsline {section}{\numberline {5.1}Backlog}{69}
+\contentsline {section}{\numberline {5.2}Use case}{72}
+\contentsline {subsection}{\numberline {5.2.1}Use case diagram}{72}
+\contentsline {subsection}{\numberline {5.2.2}Use case description}{75}
+\contentsline {section}{\numberline {5.3}Sequence diagram}{78}
+\contentsline {section}{\numberline {5.4}Implementation}{81}
+\contentsline {subsection}{\numberline {5.4.1}Web}{81}
+\contentsline {subsection}{\numberline {5.4.2}Mobile}{85}
+\contentsline {section}{\numberline {5.5}Release retrospective}{86}
+\contentsline {section}{Conclusion}{86}
+\contentsline {chapter}{\numberline {6}Release 3}{87}
+\contentsline {section}{Introduction}{87}
+\contentsline {section}{\numberline {6.1}Backlog}{87}
+\contentsline {section}{\numberline {6.2}Use case}{90}
+\contentsline {subsection}{\numberline {6.2.1}Use case diagrams}{90}
+\contentsline {subsection}{\numberline {6.2.2}Use case description}{93}
+\contentsline {section}{\numberline {6.3}Sequence diagram}{97}
+\contentsline {section}{\numberline {6.4}Implementation}{100}
+\contentsline {subsection}{\numberline {6.4.1}Web}{100}
+\contentsline {subsection}{\numberline {6.4.2}Mobile}{102}
+\contentsline {section}{\numberline {6.5}Release retrospective}{103}
+\contentsline {section}{Conclusion}{103}
+\contentsline {chapter}{General conclusion}{104}
+\contentsline {chapter}{Bibliography}{105}
 \contentsfinish 

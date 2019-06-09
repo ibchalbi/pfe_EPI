@@ -14,7 +14,7 @@
 \usepackage{rotating}
 \usepackage[singlelinecheck=false,justification=Centering]{caption}
 \usepackage{acro}
-
+\usepackage{subfig}
 % probably a good idea for the nomenclature entries:
 \acsetup{first-style=short}
 
@@ -2585,43 +2585,33 @@ The client won't have access to his profile unless he loges in, the interface sh
 	\caption{Profile non connected mobile interface}
 	\label{accountnonconnect-mobile-interface}
 \end{figure} 
+
 \clearpage
-To create an account, the client just needs to fill in the form show in Figure \ref{register-mobile-interface}.
-\begin{figure}[H]
-		\vspace*{1in}
-	\centering
-	\includegraphics[width=3in,keepaspectratio]{registermobile.jpg}
-	\caption{Register mobile interface}
-	\label{register-mobile-interface}
-\end{figure} 
-\clearpage
+To create an account, the client just needs to fill in the form show in Figure \ref{auth-label}.\par 
 Once the account is created, the client can login by filling in the valid information.
 \begin{figure}[H]
-	\vspace*{1in}
 	\centering
-	\includegraphics[width=3in,keepaspectratio]{loginmobile.jpg}
-	\caption{Login mobile interface}
-	\label{login-mobile-interface}
-\end{figure} 
+	\vspace*{1in}
+	\subfloat[Register interface]{{\includegraphics[width=7cm]{registermobile.jpg} }}%
+	\qquad
+	\subfloat[Login interface]{{\includegraphics[width=7cm]{loginmobile.jpg} }}%
+	\caption{Register and login mobile interface}%
+	\label{auth-label}%
+\end{figure}
 \clearpage
 \subsubsection*{Sprint "Manage account"}
-Once the use is logged in he have access to his own profile where he can find his personal information.
+Once the use is logged in he have access to his own profile where he can find his personal information.\par
+The client can edit his profile as shown in Figure \ref{manageaccount-label}.
 \begin{figure}[H]
+	\centering
 	\vspace*{1in}
-	\centering
-	\includegraphics[width=3in,keepaspectratio]{profilemobile.jpg}
-	\caption{Profile view mobile interface}
-	\label{profilemobile-interface}
+	\subfloat[Register interface]{{\includegraphics[width=7cm]{profilemobile.jpg} }}%
+	\qquad
+	\subfloat[Login interface]{{\includegraphics[width=7cm]{editprofilemobile.jpg} }}%
+	\caption{Register and login mobile interface}%
+	\label{manageaccount-label}%
 \end{figure}
-\clearpage
-The client can edit his profile as shown in Figure \ref{editprofilemobile-interface}.
-\begin{figure}[H]
-		\vspace*{1in}
-	\centering
-	\includegraphics[width=3in,keepaspectratio]{editprofilemobile.jpg}
-	\caption{Edit profile mobile interface}
-	\label{editprofilemobile-interface}
-\end{figure}
+
 \clearpage
 Resetting a password has the same process as the web application.
 \begin{figure}[H]
@@ -2633,23 +2623,18 @@ Resetting a password has the same process as the web application.
 \end{figure}
 \clearpage
 \subsubsection*{Sprint "Manage pastries"}
-The list of pastries is accessible to all users the only difference is that some function are not allowed if you are not logged in.
+The list of pastries is accessible to all users the only difference is that some function are not allowed if you are not logged in.\par 
+A single pastry can be viewed by clicking on one of the pastries in the list.
 \begin{figure}[H]
+	\centering
 	\vspace*{1in}
-	\centering
-	\includegraphics[width=3in,keepaspectratio]{pastriesListmobile.jpg}
-	\caption{List of pastries mobile interface}
-	\label{pastriesListmobile-interface}
+	\subfloat[Register interface]{{\includegraphics[width=7cm]{pastriesListmobile.jpg} }}%
+	\qquad
+	\subfloat[Login interface]{{\includegraphics[width=7cm]{showpastrymobile.jpg} }}%
+	\caption{Register and login mobile interface}%
+	\label{managepastries-label}%
 \end{figure}
-\clearpage
-A single pastry can be viewed by clicking on one of the pastries in the previous interface.
-\begin{figure}[H]
-		\vspace*{1in}
-	\centering
-	\includegraphics[width=3in,keepaspectratio]{showpastrymobile.jpg}
-	\caption{View pastry mobile interface}
-	\label{showpastrymobile-interface}
-\end{figure}
+
 
 \section{Release retrospective}
 	After the first sprint, we did the tests to see if
@@ -3331,13 +3316,23 @@ The events or orders can be view in the calender interface as shown in Figure \r
 \end{figure}
 To add an event all the user has to do is fill in the form that is shown in Figure \ref{addevent-interface}.
 \begin{figure}[H]
+	\vspace*{1in}
 	\centering
-	\includegraphics[width=5.6in,keepaspectratio]{addevent.png}
+	\includegraphics[width=7in,keepaspectratio]{addevent.png}
 	\caption{Add event interface web}
 	\label{addevent-interface}
 \end{figure}
-
+\clearpage
 \subsection{Mobile}
+\subsubsection*{Sprint "Manage account"}
+The client has access to his own list of complain that he has already sent to a number of pastries, The Figure \ref{listcomplainsmobile-interface} gives us an idea about how this layout look like.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{listcomplainsmobile.jpg}
+	\caption{List of complains mobile interface}
+	\label{listcomplainsmobile-interface}
+\end{figure}
+\clearpage
 	\section{Release retrospective}
 		Finishing this release, we had to test every sprint where we decided on these retrospectives:\\
 	\begin{itemize}
@@ -4123,6 +4118,16 @@ The status of an order can be change by the pastry owner but only after a confir
 \end{figure}
 
 \subsection{Mobile}
+\subsubsection*{Sprint "Manage orders"}
+The client has access to his own list of orders. The Figure \ref{orderlistmobile-interface} gives us an idea about how this layout look like.
+\begin{figure}[H]
+	\vspace*{1in}
+	\centering
+	\includegraphics[width=3in,keepaspectratio]{orderlistmobile.jpg}
+	\caption{List of orders mobile interface}
+	\label{orderlistmobile-interface}
+\end{figure}
+\clearpage
 	\section{Release retrospective}
 		Finishing this release, we had to test every sprint where we decided on these retrospectives:\\
 	\begin{itemize}

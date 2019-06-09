@@ -36,36 +36,41 @@
 \contentsline {figure}{\numberline {4.15}{\ignorespaces Add product interface\relax }}{61}
 \contentsline {figure}{\numberline {4.16}{\ignorespaces Edit product interface\relax }}{62}
 \contentsline {figure}{\numberline {4.17}{\ignorespaces Profile non connected mobile interface\relax }}{63}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Register mobile interface\relax }}{64}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Login mobile interface\relax }}{65}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Profile view mobile interface\relax }}{66}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Edit profile mobile interface\relax }}{67}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Reset password mobile interface\relax }}{68}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces List of pastries mobile interface\relax }}{69}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces View pastry mobile interface\relax }}{70}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Register and login mobile interface\relax }}{64}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{64}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{64}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Register and login mobile interface\relax }}{65}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{65}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{65}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Reset password mobile interface\relax }}{66}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Register and login mobile interface\relax }}{67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{67}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{67}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Use case Manage clients\relax }}{75}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Use case Manage complains\relax }}{76}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Use case Manage reports\relax }}{77}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Use case Manage events\relax }}{77}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Manage complains sequence diagram\relax }}{82}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Manage reports sequence diagram\relax }}{83}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces List of clients interface web\relax }}{84}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces List of complains interface web\relax }}{85}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Reply to complain interface web\relax }}{85}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces List of reports interface web\relax }}{86}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Calender interface web\relax }}{86}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Add event interface web\relax }}{87}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Use case Manage clients\relax }}{72}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Use case Manage complains\relax }}{73}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Use case Manage reports\relax }}{74}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Use case Manage events\relax }}{74}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Manage complains sequence diagram\relax }}{79}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Manage reports sequence diagram\relax }}{80}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces List of clients interface web\relax }}{81}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces List of complains interface web\relax }}{82}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Reply to complain interface web\relax }}{82}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces List of reports interface web\relax }}{83}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Calender interface web\relax }}{83}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Add event interface web\relax }}{84}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces List of complains mobile interface\relax }}{85}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Manage reviews use case\relax }}{92}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Manage ratings use case\relax }}{92}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Statistics use case\relax }}{93}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Manage cart use case\relax }}{94}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Manage orders use case\relax }}{94}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Manage personal orders use case\relax }}{95}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Manage cart sequence diagram\relax }}{100}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Manage orders sequence diagram\relax }}{101}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces List of reviews Interface web\relax }}{102}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces List of orders Interface web\relax }}{103}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Edit order Interface web\relax }}{103}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Manage reviews use case\relax }}{90}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Manage ratings use case\relax }}{90}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Statistics use case\relax }}{91}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Manage cart use case\relax }}{92}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Manage orders use case\relax }}{92}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Manage personal orders use case\relax }}{93}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Manage cart sequence diagram\relax }}{98}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Manage orders sequence diagram\relax }}{99}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces List of reviews Interface web\relax }}{100}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces List of orders Interface web\relax }}{101}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Edit order Interface web\relax }}{101}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces List of orders mobile interface\relax }}{102}
 \contentsfinish 
