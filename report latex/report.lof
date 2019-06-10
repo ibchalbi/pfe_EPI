@@ -39,13 +39,13 @@
 \contentsline {figure}{\numberline {4.18}{\ignorespaces Register and login mobile interface\relax }}{65}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{65}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{65}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Register and login mobile interface\relax }}{66}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{66}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{66}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces View and edit profile mobile interface\relax }}{66}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {View profile interface}}}{66}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Edit profile interface}}}{66}
 \contentsline {figure}{\numberline {4.20}{\ignorespaces Reset password mobile interface\relax }}{67}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Register and login mobile interface\relax }}{68}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Register interface}}}{68}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Login interface}}}{68}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces View pastries mobile interface\relax }}{68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {View list of pastries Interface}}}{68}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {View one pastry Interface}}}{68}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Use case Manage clients\relax }}{73}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Use case Manage complains\relax }}{74}
