@@ -216,7 +216,7 @@
 	In order to succeed in the bakery business,  some marketing and advertising can also make a big difference.\par
 	
 	Depending on all of that, we are providing as a solution an application named \textbf{``Cake it up !''} that fills in the needs of both parts the business owner and the client. It provides an easy way for the owner to promote their business and easier way for the client to find a place that matches him.\par
-	This report contains four chapters;\par
+	This report contains six chapters;\par
 	The first chapter is a quick presentation of the company \textbf{``Anypli''} where the internship took place, this chapter will also contain the preliminary Study of the project, in fact we will be analyzing the existing and explaining our solution.  \par
 	The second chapter focuses on the requirements of the project and the planning of this work, where we will present the breakdown of this project needed to highlight the different modules to be developed in time.\par
 	The third chapter will provide the means used to make this work possible and give a detailed description of the project's architecture.
@@ -1449,50 +1449,50 @@
 				\rowcolor{LightCyan}
 				\textbf{ Entities} & \textbf{Definition} \\ \hline\hline\hline
 				User               &                     
-				\vtop{\hbox{\strut The user can be the place owner, place manager or the foodies}}
+				\vtop{\hbox{\strut The user can be the administrator, the pastry owner, the visitor oe the client}}
 				
 				\\ \hline
-				Place manager      &                     
-				\vtop{\hbox{\strut The person who manges the place.}}
+				Pastry owner      &                     
+				\vtop{\hbox{\strut The person who manges the pastry.}}
 				
 				\\ \hline
-				Place owner        &                     
-				\vtop{\hbox{\strut The person who owns the place.}}
+				Administrator       &                     
+				\vtop{\hbox{\strut The person who manage the application.}}
 				\\
 				\hline
-				Foodie             &                     
-				\vtop{\hbox{\strut The person who will be attending the place.}}
+				Client             &                     
+				\vtop{\hbox{\strut The person who will be passing orders.}}
 				\\ \hline
-				Place              &                     
-				\vtop{\hbox{\strut Places are added by the owner.}}
+				Visitor             &                     
+				\vtop{\hbox{\strut Is a client who does not have an account}}
 				\\ \hline
-				Reservation        &                     
-				\vtop{\hbox{\strut The foodie can book a dish in a place.}}
+				Pastry              &                     
+				\vtop{\hbox{\strut The pastry added by the owner}}
 				\\ \hline
-				Menu               &                     
-				\vtop{\hbox{\strut The menu is composed from dishes.}}
+				History        &                     
+				\vtop{\hbox{\strut Any order or complain or a block done by a client is saved in this table.}}
 				\\ \hline
-				Dish               &                     
-				\vtop{\hbox{\strut The food that a foodie will come for.}}
+				Review               &                     
+				\vtop{\hbox{\strut The client have an option a write a review about a pastry.}}
 				\\ \hline
-				Ingredient         &                     
-				\vtop{\hbox{\strut A dish has ingredients.}}
+				Product               &                     
+				\vtop{\hbox{\strut Every pastry has a number of products.}}
 				\\ \hline
-				Likes/Dislikes     &                     
-				\vtop{\hbox{\strut The foodie can like or dislike a place.}}
+				Event         &                     
+				\vtop{\hbox{\strut An event can be created by a pastry owner.}}
 				\\ \hline
-				Comments           &                     
-				\vtop{\hbox{\strut The foodie can comment on a place.}}
+				Favorites    &                     
+				\vtop{\hbox{\strut The client can add a pastry to his favorite list}}
 				\\ \hline
-				Rating             &                     
-				\vtop{\hbox{\strut The foodie can give the place a rating.}}
+				Address           &                     
+				\vtop{\hbox{\strut Both the client and a pastry have an address.}}
 				\\ \hline
-				Offer              &                     
-				\vtop{\hbox{\strut A place can make an offer.}}
+				Personal\_products             &                     
+				\vtop{\hbox{\strut The client can create his own personal product.}}
 				\\ \hline
-				Location           &                     
-				\vtop{\hbox{\strut A place has a location.}}
-				\\ \hline
+				Complains              &                     
+				\vtop{\hbox{\strut A complain can be send from a client to a pastry owner.}}
+			
 				
 				
 				
@@ -1501,6 +1501,35 @@
 		\end{center}
 		
 	\end{table}
+\begin{table}[H]
+	\begin{center}
+		
+		\setlength\doublerulesep{0.5pt}
+		\begin{tabular}{| l | p{12cm} |}
+			\hline 
+			Cart           &                     
+			\vtop{\hbox{\strut Is where the orders are saved.}}
+			\\ \hline
+			Category           &                     
+			\vtop{\hbox{\strut Each product belongs to a specific category.}}
+			\\ \hline
+			Schedule           &                     
+			\vtop{\hbox{\strut The pastry have an opening and closing time.}}
+			\\ \hline
+			Report           &                     
+			\vtop{\hbox{\strut Both pastry owners and clients can report each other.}}
+			\\ \hline
+			Phone           &                     
+			\vtop{\hbox{\strut A phone number can belong to a pastry or a client.}}
+			\\ \hline
+			
+			
+			
+		\end{tabular}
+		
+	\end{center}
+	
+\end{table}
 	\section{Sprint Planning}
 	The planning stage is very important for better organization and management of the project.
 	\begin{table}[H]
