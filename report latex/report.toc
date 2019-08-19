@@ -1,93 +1,131 @@
 \contentsline {chapter}{Acknowledgement}{i}
-\contentsline {chapter}{List of Figures}{vii}
-\contentsline {chapter}{List of Tables}{x}
-\contentsline {chapter}{List of Abbreviations}{xii}
-\contentsline {chapter}{General introduction}{1}
+\contentsline {chapter}{List of Figures}{viii}
+\contentsline {chapter}{List of Tables}{xi}
+\contentsline {chapter}{List of Abbreviations}{xiii}
 \ttl@change@i {\@ne }{chapter}{0pt}{\vspace {1ex}}{\bfseries \chaptername ~\thecontentslabel :\quad }{\bfseries }{\bfseries \hfill \contentspage }\relax 
 \ttl@change@v {chapter}{}{}{}\relax 
 \contentsline {chapter}{\numberline {1}Project scope }{3}
-\contentsline {section}{Introduction}{3}
-\contentsline {section}{\numberline {1.1}Host organization Presentation}{3}
-\contentsline {section}{\numberline {1.2}Project Presentation}{4}
-\contentsline {subsection}{\numberline {1.2.1}Analysis of the existing}{4}
-\contentsline {subsection}{\numberline {1.2.2}Criticism of the existing}{9}
-\contentsline {subsection}{\numberline {1.2.3}Solution}{10}
-\contentsline {section}{\numberline {1.3}Used methodology}{10}
-\contentsline {section}{Conclusion}{12}
-\contentsline {chapter}{\numberline {2}Requirements}{13}
-\contentsline {section}{Introduction}{13}
-\contentsline {section}{\numberline {2.1}Requirements}{13}
-\contentsline {subsection}{\numberline {2.1.1}Actors}{13}
-\contentsline {subsection}{\numberline {2.1.2}Functional requirements}{14}
-\contentsline {subsection}{\numberline {2.1.3}Non-Functional requirements}{15}
-\contentsline {section}{\numberline {2.2}Project management with SCRUM}{16}
-\contentsline {subsection}{\numberline {2.2.1}SCRUM}{16}
-\contentsline {subsection}{\numberline {2.2.2}SCRUM roles }{16}
-\contentsline {section}{\numberline {2.3}Product Backlog}{16}
-\contentsline {section}{\numberline {2.4}General use case diagram}{20}
-\contentsline {subsection}{\numberline {2.4.1}Use case: web}{20}
-\contentsline {subsection}{\numberline {2.4.2}Use case: Mobile}{23}
-\contentsline {section}{\numberline {2.5}Conceptual Data Modeling}{25}
-\contentsline {subsection}{\numberline {2.5.1}Data dictionary}{25}
-\contentsline {subsection}{\numberline {2.5.2}Class diagram}{28}
-\contentsline {section}{\numberline {2.6}Sprint Planning}{31}
-\contentsline {section}{Conclusion}{32}
+\contentsline {section}{\numberline {1.1}Introduction}{3}
+\contentsline {section}{\numberline {1.2}Host organization Presentation}{3}
+\contentsline {section}{\numberline {1.3}Project Presentation}{4}
+\contentsline {subsection}{\numberline {1.3.1}Analysis of the existing}{4}
+\contentsline {subsubsection}{\numberline {1.3.1.1}Social media}{4}
+\contentsline {subsubsection}{\numberline {1.3.1.2}Google maps}{6}
+\contentsline {subsubsection}{\numberline {1.3.1.3}Bakery days}{7}
+\contentsline {subsubsection}{\numberline {1.3.1.4}YELP}{7}
+\contentsline {subsection}{\numberline {1.3.2}Criticism of the existing solutions}{9}
+\contentsline {subsection}{\numberline {1.3.3}Proposed solution}{10}
+\contentsline {section}{\numberline {1.4}Used methodology}{10}
+\contentsline {section}{\numberline {1.5}Conclusion}{12}
+\contentsline {chapter}{\numberline {2}Design and requirements}{13}
+\contentsline {section}{\numberline {2.1}Introduction}{13}
+\contentsline {section}{\numberline {2.2}Requirements}{13}
+\contentsline {subsection}{\numberline {2.2.1}Actors}{13}
+\contentsline {subsection}{\numberline {2.2.2}Functional requirements}{14}
+\contentsline {subsection}{\numberline {2.2.3}Non-Functional requirements}{15}
+\contentsline {section}{\numberline {2.3}Project management with SCRUM}{16}
+\contentsline {subsection}{\numberline {2.3.1}SCRUM}{16}
+\contentsline {subsection}{\numberline {2.3.2}SCRUM roles }{16}
+\contentsline {section}{\numberline {2.4}Product Backlog}{16}
+\contentsline {section}{\numberline {2.5}General use case diagrams}{20}
+\contentsline {subsection}{\numberline {2.5.1}Use cases: web}{20}
+\contentsline {subsection}{\numberline {2.5.2}Use cases: Mobile}{23}
+\contentsline {section}{\numberline {2.6}Conceptual Data Modeling}{25}
+\contentsline {subsection}{\numberline {2.6.1}Data dictionary}{25}
+\contentsline {subsection}{\numberline {2.6.2}Class diagram}{28}
+\contentsline {section}{\numberline {2.7}Sprint Planning}{31}
+\contentsline {section}{\numberline {2.8}Conclusion}{32}
 \contentsline {chapter}{\numberline {3}Project Initialization}{33}
-\contentsline {section}{Introduction}{33}
-\contentsline {section}{\numberline {3.1}Choice of the architecture}{33}
-\contentsline {section}{\numberline {3.2}Programming languages}{37}
-\contentsline {subsection}{\numberline {3.2.1}Kotlin}{37}
-\contentsline {subsection}{\numberline {3.2.2}PHP}{38}
-\contentsline {subsection}{\numberline {3.2.3}JavaScript}{38}
-\contentsline {section}{\numberline {3.3}Used technologies and frameworks}{38}
-\contentsline {subsection}{\numberline {3.3.1}Android}{38}
-\contentsline {subsection}{\numberline {3.3.2}Laravel}{39}
-\contentsline {subsection}{\numberline {3.3.3}VueJS}{39}
-\contentsline {subsection}{\numberline {3.3.4}Swagger}{41}
-\contentsline {section}{\numberline {3.4}Used software}{41}
-\contentsline {subsection}{\numberline {3.4.1}Android studio}{41}
-\contentsline {subsection}{\numberline {3.4.2}Visual studio code}{42}
-\contentsline {subsection}{\numberline {3.4.3}Laragon}{42}
-\contentsline {subsection}{\numberline {3.4.4}Star UML}{42}
-\contentsline {subsection}{\numberline {3.4.5}TexStudio}{43}
-\contentsline {subsection}{\numberline {3.4.6}SourceTree}{43}
-\contentsline {section}{Conclusion}{43}
+\contentsline {section}{\numberline {3.1}Introduction}{33}
+\contentsline {section}{\numberline {3.2}Choice of the architecture}{33}
+\contentsline {section}{\numberline {3.3}Programming languages}{37}
+\contentsline {subsection}{\numberline {3.3.1}Kotlin}{37}
+\contentsline {subsection}{\numberline {3.3.2}PHP}{38}
+\contentsline {subsection}{\numberline {3.3.3}JavaScript}{38}
+\contentsline {section}{\numberline {3.4}Used technologies and frameworks}{38}
+\contentsline {subsection}{\numberline {3.4.1}Android}{38}
+\contentsline {subsection}{\numberline {3.4.2}Laravel}{39}
+\contentsline {subsection}{\numberline {3.4.3}VueJS}{39}
+\contentsline {subsubsection}{\numberline {3.4.3.1}Vuetify}{40}
+\contentsline {subsubsection}{\numberline {3.4.3.2}Vuex}{40}
+\contentsline {subsection}{\numberline {3.4.4}Swagger}{41}
+\contentsline {section}{\numberline {3.5}Used software}{41}
+\contentsline {subsection}{\numberline {3.5.1}Android studio}{41}
+\contentsline {subsection}{\numberline {3.5.2}Visual studio code}{42}
+\contentsline {subsection}{\numberline {3.5.3}Laragon}{42}
+\contentsline {subsection}{\numberline {3.5.4}Star UML}{42}
+\contentsline {subsection}{\numberline {3.5.5}TexStudio}{43}
+\contentsline {subsection}{\numberline {3.5.6}SourceTree}{43}
+\contentsline {section}{\numberline {3.6}Conclusion}{43}
 \contentsline {chapter}{\numberline {4}Release 1}{44}
-\contentsline {section}{Introduction}{44}
-\contentsline {section}{\numberline {4.1}Backlog}{44}
-\contentsline {section}{\numberline {4.2}Use case}{47}
-\contentsline {subsection}{\numberline {4.2.1}Use case diagram}{47}
-\contentsline {subsection}{\numberline {4.2.2}Use case description}{51}
-\contentsline {section}{\numberline {4.3}Sequence diagram}{54}
-\contentsline {section}{\numberline {4.4}Implementation}{58}
-\contentsline {subsection}{\numberline {4.4.1}Web}{58}
-\contentsline {subsection}{\numberline {4.4.2}mobile}{64}
-\contentsline {section}{\numberline {4.5}Release retrospective}{69}
-\contentsline {section}{Conclusion}{69}
+\contentsline {section}{\numberline {4.1}Introduction}{44}
+\contentsline {section}{\numberline {4.2}Backlog}{44}
+\contentsline {section}{\numberline {4.3}Use cases}{47}
+\contentsline {subsection}{\numberline {4.3.1}Use case diagrams}{47}
+\contentsline {subsection}{\numberline {4.3.2}Use cases descriptions}{51}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Use case "Authentication" description}{51}
+\contentsline {subsubsection}{\numberline {4.3.2.2}Use case "Manage account" description}{52}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Use case "Manage pastries" description}{53}
+\contentsline {subsubsection}{\numberline {4.3.2.4}Use case "Manage products" description}{54}
+\contentsline {section}{\numberline {4.4}Sequence diagram}{54}
+\contentsline {subsubsection}{\numberline {4.4.0.1}Sequence diagram "Manage product"}{56}
+\contentsline {section}{\numberline {4.5}Implementation}{58}
+\contentsline {subsection}{\numberline {4.5.1}Web interfaces}{58}
+\contentsline {subsubsection}{\numberline {4.5.1.1}Sprint "Authentication"}{58}
+\contentsline {subsubsection}{\numberline {4.5.1.2}Sprint "Manage account"}{60}
+\contentsline {subsubsection}{\numberline {4.5.1.3}Sprint "Manage pastries"}{61}
+\contentsline {subsubsection}{\numberline {4.5.1.4}Sprint "Manage products"}{62}
+\contentsline {subsection}{\numberline {4.5.2}Mobile interfaces}{64}
+\contentsline {subsubsection}{\numberline {4.5.2.1}Sprint "Authentication"}{64}
+\contentsline {subsubsection}{\numberline {4.5.2.2}Sprint "Manage account"}{66}
+\contentsline {subsubsection}{\numberline {4.5.2.3}Sprint "Manage pastries"}{68}
+\contentsline {section}{\numberline {4.6}Release retrospective}{69}
+\contentsline {section}{\numberline {4.7}Conclusion}{69}
 \contentsline {chapter}{\numberline {5}Release 2}{70}
-\contentsline {section}{Introduction}{70}
-\contentsline {section}{\numberline {5.1}Backlog}{70}
-\contentsline {section}{\numberline {5.2}Use case}{73}
-\contentsline {subsection}{\numberline {5.2.1}Use case diagram}{73}
-\contentsline {subsection}{\numberline {5.2.2}Use case description}{76}
-\contentsline {section}{\numberline {5.3}Sequence diagram}{79}
-\contentsline {section}{\numberline {5.4}Implementation}{82}
-\contentsline {subsection}{\numberline {5.4.1}Web}{82}
-\contentsline {subsection}{\numberline {5.4.2}Mobile}{86}
-\contentsline {section}{\numberline {5.5}Release retrospective}{87}
-\contentsline {section}{Conclusion}{87}
+\contentsline {section}{\numberline {5.1}Introduction}{70}
+\contentsline {section}{\numberline {5.2}Backlog}{70}
+\contentsline {section}{\numberline {5.3}Use cases}{73}
+\contentsline {subsection}{\numberline {5.3.1}Use case diagrams}{73}
+\contentsline {subsection}{\numberline {5.3.2}Use cases descriptions}{76}
+\contentsline {subsubsection}{\numberline {5.3.2.1}Use case "Manage clients" description}{76}
+\contentsline {subsubsection}{\numberline {5.3.2.2}Use case "Manage complains" description}{77}
+\contentsline {subsubsection}{\numberline {5.3.2.3}Use case "Manage reports" description}{78}
+\contentsline {subsubsection}{\numberline {5.3.2.4}Use case "Manage events" description}{79}
+\contentsline {section}{\numberline {5.4}Sequence diagram}{79}
+\contentsline {subsubsection}{\numberline {5.4.0.1}Sequence diagram "Manage reports"}{81}
+\contentsline {section}{\numberline {5.5}Implementation}{82}
+\contentsline {subsection}{\numberline {5.5.1}Web interfaces}{82}
+\contentsline {subsubsection}{\numberline {5.5.1.1}Sprint "Manage clients"}{82}
+\contentsline {subsubsection}{\numberline {5.5.1.2}Sprint "Manage complains"}{83}
+\contentsline {subsubsection}{\numberline {5.5.1.3}Sprint "Manage reports"}{84}
+\contentsline {subsubsection}{\numberline {5.5.1.4}Sprint "Manage events"}{84}
+\contentsline {subsection}{\numberline {5.5.2}Mobile interfaces}{86}
+\contentsline {subsubsection}{\numberline {5.5.2.1}Sprint "Manage account"}{86}
+\contentsline {section}{\numberline {5.6}Release retrospectives}{87}
+\contentsline {section}{\numberline {5.7}Conclusion}{87}
 \contentsline {chapter}{\numberline {6}Release 3}{88}
-\contentsline {section}{Introduction}{88}
-\contentsline {section}{\numberline {6.1}Backlog}{88}
-\contentsline {section}{\numberline {6.2}Use case}{91}
-\contentsline {subsection}{\numberline {6.2.1}Use case diagrams}{91}
-\contentsline {subsection}{\numberline {6.2.2}Use case description}{94}
-\contentsline {section}{\numberline {6.3}Sequence diagram}{98}
-\contentsline {section}{\numberline {6.4}Implementation}{101}
-\contentsline {subsection}{\numberline {6.4.1}Web}{101}
-\contentsline {subsection}{\numberline {6.4.2}Mobile}{103}
-\contentsline {section}{\numberline {6.5}Release retrospective}{104}
-\contentsline {section}{Conclusion}{104}
+\contentsline {section}{\numberline {6.1}Introduction}{88}
+\contentsline {section}{\numberline {6.2}Backlog}{88}
+\contentsline {section}{\numberline {6.3}Use cases}{91}
+\contentsline {subsection}{\numberline {6.3.1}Use case diagrams}{91}
+\contentsline {subsection}{\numberline {6.3.2}Use cases descriptions}{94}
+\contentsline {subsubsection}{\numberline {6.3.2.1}Use case "Manage reviews" description}{94}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Use case "Manage ratings" description}{95}
+\contentsline {subsubsection}{\numberline {6.3.2.3}Use case "Statistics" description}{96}
+\contentsline {subsubsection}{\numberline {6.3.2.4}Use case "Manage cart" description}{96}
+\contentsline {subsubsection}{\numberline {6.3.2.5}Use case "Manage orders" description}{97}
+\contentsline {subsubsection}{\numberline {6.3.2.6}Use case "Manage personal orders" description}{98}
+\contentsline {section}{\numberline {6.4}Sequence diagrams}{98}
+\contentsline {subsubsection}{\numberline {6.4.0.1}Sequence diagram "Manage cart"}{98}
+\contentsline {subsubsection}{\numberline {6.4.0.2}Sequence diagram "Manage orders"}{100}
+\contentsline {section}{\numberline {6.5}Implementation}{101}
+\contentsline {subsection}{\numberline {6.5.1}Web interfaces}{101}
+\contentsline {subsubsection}{\numberline {6.5.1.1}Sprint "Manage reviews"}{101}
+\contentsline {subsubsection}{\numberline {6.5.1.2}Sprint "Manage orders"}{102}
+\contentsline {subsection}{\numberline {6.5.2}Mobile interfaces}{103}
+\contentsline {subsubsection}{\numberline {6.5.2.1}Sprint "Manage orders"}{103}
+\contentsline {section}{\numberline {6.6}Release retrospectives}{104}
+\contentsline {section}{\numberline {6.7}Conclusion}{104}
 \contentsline {chapter}{General conclusion}{105}
 \contentsline {chapter}{Bibliography}{106}
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.5.7)  10 JUN 2019 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.5.7)  21 JUN 2019 01:41
 entering extended mode
 **./report.tex
 (report.tex
@@ -1055,39 +1055,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--196
 
 ] (report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 9.
+(Font)              <12> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 9.
+(Font)              <8> on input line 8.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 9.
+(Font)              <6> on input line 8.
  [3
 
 
-] [4] [5])
+] [4] [5] [6])
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
- [6] (report.lof [7
+ [7] (report.lof [8
 
 
-] [8])
+] [9])
 \tf@lof=\write4
 \openout4 = `report.lof'.
 
- [9] (report.lot [10
+ [10] (report.lot
+[11
 
 
 ])
 \tf@lot=\write5
 \openout5 = `report.lot'.
 
-
-[11]
+ [12]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 206.
- [12
+ [13
 
-] [13] [1
+] [14] [1
 
 
 ]
@@ -1107,7 +1107,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 Chapter 1.
-<images/logo_anypli.png, id=82, 602.25pt x 246.9225pt>
+<images/logo_anypli.png, id=85, 602.25pt x 246.9225pt>
 File: images/logo_anypli.png Graphic file (type png)
 <use images/logo_anypli.png>
 Package pdftex.def Info: images/logo_anypli.png  used on input line 244. on inp
@@ -1121,17 +1121,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 245--245
 
 [3
 
-]
+ <./images/logo_anypli.png>]
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 250.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 250.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 258.
-<images/facebook.jpg, id=87, 632.3625pt x 1299.85625pt>
+<images/facebook.jpg, id=91, 632.3625pt x 1299.85625pt>
 File: images/facebook.jpg Graphic file (type jpg)
 <use images/facebook.jpg>
 Package pdftex.def Info: images/facebook.jpg  used on input line 267. on input 
@@ -1153,7 +1154,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./images/logo_anypli.png>]
+[4]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1161,7 +1162,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5 <./images/facebook.jpg>]
-<images/googlemaps.jpg, id=97, 632.3625pt x 1299.85625pt>
+<images/googlemaps.jpg, id=100, 632.3625pt x 1299.85625pt>
 File: images/googlemaps.jpg Graphic file (type jpg)
 <use images/googlemaps.jpg>
 Package pdftex.def Info: images/googlemaps.jpg  used on input line 278. on inpu
@@ -1182,7 +1183,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [6
 
  <./images/googlemaps.jpg>]
-<images/bakerydays.png, id=101, 657.2053pt x 461.47406pt>
+<images/bakerydays.png, id=104, 657.2053pt x 461.47406pt>
 File: images/bakerydays.png Graphic file (type png)
 <use images/bakerydays.png>
 Package pdftex.def Info: images/bakerydays.png  used on input line 293. on inpu
@@ -1208,7 +1209,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [7
 
  <./images/bakerydays.png>]
-<images/yelp.png, id=106, 996.72375pt x 638.385pt>
+<images/yelp.png, id=109, 996.72375pt x 638.385pt>
 File: images/yelp.png Graphic file (type png)
 <use images/yelp.png>
 Package pdftex.def Info: images/yelp.png  used on input line 312. on input line
@@ -1220,7 +1221,7 @@ Underfull \hbox (badness 7308) in paragraph at lines 313--313
  []\OT1/ptm/m/n/12 Figure 1.5: |Web ap-pli-ca-tion: Yelp (busi-ness owner)[]| 
  []
 
-<images/yelp2.png, id=107, 1010.77625pt x 629.35126pt>
+<images/yelp2.png, id=110, 1010.77625pt x 629.35126pt>
 File: images/yelp2.png Graphic file (type png)
 <use images/yelp2.png>
 Package pdftex.def Info: images/yelp2.png  used on input line 321. on input lin
@@ -1257,7 +1258,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [9]
-<images/logowithtxt.png, id=116, 359.3425pt x 120.45pt>
+<images/logowithtxt.png, id=119, 359.3425pt x 120.45pt>
 File: images/logowithtxt.png Graphic file (type png)
 <use images/logowithtxt.png>
 Package pdftex.def Info: images/logowithtxt.png  used on input line 373. on inp
@@ -1278,7 +1279,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [10
 
  <./images/logowithtxt.png>]
-<images/scrum.png, id=121, 542.025pt x 253.69781pt>
+<images/scrum.png, id=125, 542.025pt x 253.69781pt>
 File: images/scrum.png Graphic file (type png)
 <use images/scrum.png>
 Package pdftex.def Info: images/scrum.png  used on input line 397. on input lin
@@ -1423,7 +1424,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [19]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 915.
-<images/usecaseWeb.png, id=152, 957.5775pt x 1053.9375pt>
+<images/usecaseWeb.png, id=155, 957.5775pt x 1053.9375pt>
 File: images/usecaseWeb.png Graphic file (type png)
 <use images/usecaseWeb.png>
 Package pdftex.def Info: images/usecaseWeb.png  used on input line 930. on inpu
@@ -1465,7 +1466,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [21 <./images/usecaseWeb.png>]
-<images/UseCasemobile.png, id=160, 812.03375pt x 941.5175pt>
+<images/UseCasemobile.png, id=163, 812.03375pt x 941.5175pt>
 File: images/UseCasemobile.png Graphic file (type png)
 <use images/UseCasemobile.png>
 Package pdftex.def Info: images/UseCasemobile.png  used on input line 988. on i
@@ -1630,15 +1631,15 @@ Overfull \hbox (11.4234pt too wide) in paragraph at lines 1404--1426
  [] 
  []
 
-<images/class.png, id=181, 910.90312pt x 775.39688pt>
+<images/class.png, id=184, 1217.2978pt x 986.9372pt>
 File: images/class.png Graphic file (type png)
 <use images/class.png>
 Package pdftex.def Info: images/class.png  used on input line 1437. on input li
 ne 1437.
-Package pdftex.def Info: Requested size: 556.47878pt x 473.70131pt on input lin
-e 1437.
+Package pdftex.def Info: Requested size: 505.89pt x 410.15862pt on input line 1
+437.
 
-Overfull \hbox (103.51088pt too wide) in paragraph at lines 1437--1438
+Overfull \hbox (52.9221pt too wide) in paragraph at lines 1437--1438
  [][] 
  []
 
@@ -1704,7 +1705,7 @@ Chapter 3.
 [33
 
 ]
-<images/archi.png, id=202, 824.07875pt x 994.71625pt>
+<images/archi.png, id=205, 824.07875pt x 994.71625pt>
 File: images/archi.png Graphic file (type png)
 <use images/archi.png>
 Package pdftex.def Info: images/archi.png  used on input line 1616. on input li
@@ -1723,7 +1724,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34 <./images/archi.png>]
-<images/mvc_pattern.png, id=207, 492.84125pt x 261.97874pt>
+<images/mvc_pattern.png, id=211, 492.84125pt x 261.97874pt>
 File: images/mvc_pattern.png Graphic file (type png)
 <use images/mvc_pattern.png>
 Package pdftex.def Info: images/mvc_pattern.png  used on input line 1629. on in
@@ -1735,7 +1736,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1630--1630
  []\OT1/ptm/m/n/12 Figure 3.2: |MVC pat-tern| 
  []
 
-<images/mvp-patern.png, id=208, 422.57875pt x 367.3725pt>
+<images/mvp-patern.png, id=212, 422.57875pt x 367.3725pt>
 File: images/mvp-patern.png Graphic file (type png)
 <use images/mvp-patern.png>
 Package pdftex.def Info: images/mvp-patern.png  used on input line 1641. on inp
@@ -1754,7 +1755,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [35 <./images/mvc_pattern.png>]
-<images/mvvm-pettern.png, id=214, 703.62875pt x 263.98625pt>
+<images/mvvm-pettern.png, id=217, 703.62875pt x 263.98625pt>
 File: images/mvvm-pettern.png Graphic file (type png)
 <use images/mvvm-pettern.png>
 Package pdftex.def Info: images/mvvm-pettern.png  used on input line 1653. on i
@@ -1773,14 +1774,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [36 <./images/mvp-patern.png>]
-<images/kotlin-logo.png, id=219, 1204.5pt x 1204.5pt>
+<images/kotlin-logo.png, id=222, 1204.5pt x 1204.5pt>
 File: images/kotlin-logo.png Graphic file (type png)
 <use images/kotlin-logo.png>
 Package pdftex.def Info: images/kotlin-logo.png  used on input line 1663. on in
 put line 1663.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.80247pt on input line 
 1663.
-<images/kotlinjava.jpg, id=220, 828.84656pt x 229.60782pt>
+<images/kotlinjava.jpg, id=223, 828.84656pt x 229.60782pt>
 File: images/kotlinjava.jpg Graphic file (type jpg)
 <use images/kotlinjava.jpg>
 Package pdftex.def Info: images/kotlinjava.jpg  used on input line 1670. on inp
@@ -1805,21 +1806,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [37 <./images/mvvm-pettern.png> <./images/kotlin-logo.png> <./images/kotlinjava
 .jpg>]
-<images/PHP-logo.png, id=226, 1284.8pt x 693.59125pt>
+<images/PHP-logo.png, id=229, 1284.8pt x 693.59125pt>
 File: images/PHP-logo.png Graphic file (type png)
 <use images/PHP-logo.png>
 Package pdftex.def Info: images/PHP-logo.png  used on input line 1679. on input
  line 1679.
 Package pdftex.def Info: Requested size: 57.81621pt x 31.21025pt on input line 
 1679.
-<images/JavaScript-logo.png, id=227, 433.62pt x 433.62pt>
+<images/JavaScript-logo.png, id=230, 433.62pt x 433.62pt>
 File: images/JavaScript-logo.png Graphic file (type png)
 <use images/JavaScript-logo.png>
 Package pdftex.def Info: images/JavaScript-logo.png  used on input line 1687. o
 n input line 1687.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.81497pt on input line 
 1687.
-<images/android-logo.jpg, id=228, 410.53375pt x 481.8pt>
+<images/android-logo.jpg, id=231, 410.53375pt x 481.8pt>
 File: images/android-logo.jpg Graphic file (type jpg)
 <use images/android-logo.jpg>
 Package pdftex.def Info: images/android-logo.jpg  used on input line 1696. on i
@@ -1839,14 +1840,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [38 <./images/PHP-logo.png> <./images/JavaScript-logo.png> <./images/android-lo
 go.jpg>]
-<images/LaravelLogo.png, id=235, 432.6564pt x 296.0661pt>
+<images/LaravelLogo.png, id=238, 432.6564pt x 296.0661pt>
 File: images/LaravelLogo.png Graphic file (type png)
 <use images/LaravelLogo.png>
 Package pdftex.def Info: images/LaravelLogo.png  used on input line 1708. on in
 put line 1708.
 Package pdftex.def Info: Requested size: 57.81621pt x 39.56061pt on input line 
 1708.
-<images/vue-logo.png, id=236, 1204.5pt x 1043.9pt>
+<images/vue-logo.png, id=239, 1204.5pt x 1043.9pt>
 File: images/vue-logo.png Graphic file (type png)
 <use images/vue-logo.png>
 Package pdftex.def Info: images/vue-logo.png  used on input line 1714. on input
@@ -1861,21 +1862,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39 <./images/LaravelLogo.png> <./images/vue-logo.png>]
-<images/vuetify-logo.png, id=242, 210.7875pt x 240.9pt>
+<images/vuetify-logo.png, id=245, 210.7875pt x 240.9pt>
 File: images/vuetify-logo.png Graphic file (type png)
 <use images/vuetify-logo.png>
 Package pdftex.def Info: images/vuetify-logo.png  used on input line 1724. on i
 nput line 1724.
 Package pdftex.def Info: Requested size: 57.81621pt x 66.07309pt on input line 
 1724.
-<images/vuex-logo.png, id=243, 2007.5pt x 2007.5pt>
+<images/vuex-logo.png, id=246, 2007.5pt x 2007.5pt>
 File: images/vuex-logo.png Graphic file (type png)
 <use images/vuex-logo.png>
 Package pdftex.def Info: images/vuex-logo.png  used on input line 1739. on inpu
 t line 1739.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.80247pt on input line 
 1739.
-<images/flow-vuex.png, id=244, 642.4pt x 434.62375pt>
+<images/flow-vuex.png, id=247, 642.4pt x 434.62375pt>
 File: images/flow-vuex.png Graphic file (type png)
 <use images/flow-vuex.png>
 Package pdftex.def Info: images/flow-vuex.png  used on input line 1753. on inpu
@@ -1896,14 +1897,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [40
 
  <./images/vuetify-logo.png> <./images/vuex-logo.png>]
-<images/Swagger-logo.png, id=250, 200.75pt x 200.75pt>
+<images/Swagger-logo.png, id=254, 200.75pt x 200.75pt>
 File: images/Swagger-logo.png Graphic file (type png)
 <use images/Swagger-logo.png>
 Package pdftex.def Info: images/Swagger-logo.png  used on input line 1760. on i
 nput line 1760.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.81471pt on input line 
 1760.
-<images/aslogo.png, id=251, 220.825pt x 220.825pt>
+<images/aslogo.png, id=255, 220.825pt x 220.825pt>
 File: images/aslogo.png Graphic file (type png)
 <use images/aslogo.png>
 Package pdftex.def Info: images/aslogo.png  used on input line 1768. on input l
@@ -1919,21 +1920,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [41 <./images/flow-vuex.png (PNG copy)> <./images/Swagger-logo.png> <./images/a
 slogo.png>]
-<images/vsc-logo.png, id=258, 1204.5pt x 1199.48125pt>
+<images/vsc-logo.png, id=261, 1204.5pt x 1199.48125pt>
 File: images/vsc-logo.png Graphic file (type png)
 <use images/vsc-logo.png>
 Package pdftex.def Info: images/vsc-logo.png  used on input line 1776. on input
  line 1776.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.56163pt on input line 
 1776.
-<images/laragonlogo.png, id=259, 192.72pt x 192.72pt>
+<images/laragonlogo.png, id=262, 192.72pt x 192.72pt>
 File: images/laragonlogo.png Graphic file (type png)
 <use images/laragonlogo.png>
 Package pdftex.def Info: images/laragonlogo.png  used on input line 1785. on in
 put line 1785.
 Package pdftex.def Info: Requested size: 57.81621pt x 57.81349pt on input line 
 1785.
-<images/staruml.png, id=260, 461.725pt x 461.725pt>
+<images/staruml.png, id=263, 461.725pt x 461.725pt>
 File: images/staruml.png Graphic file (type png)
 <use images/staruml.png>
 Package pdftex.def Info: images/staruml.png  used on input line 1794. on input 
@@ -1973,14 +1974,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
  <./images/vsc-logo.png> <./images/laragonlogo.png (PNG copy)> <./images/starum
 l.png>]
-<images/texstudio.png, id=266, 256.96pt x 256.96pt>
+<images/texstudio.png, id=269, 256.96pt x 256.96pt>
 File: images/texstudio.png Graphic file (type png)
 <use images/texstudio.png>
 Package pdftex.def Info: images/texstudio.png  used on input line 1801. on inpu
 t line 1801.
 Package pdftex.def Info: Requested size: 43.36243pt x 43.3611pt on input line 1
 801.
-<images/sourcetreelogo.png, id=267, 256.96pt x 256.96pt>
+<images/sourcetreelogo.png, id=270, 256.96pt x 256.96pt>
 File: images/sourcetreelogo.png Graphic file (type png)
 <use images/sourcetreelogo.png>
 Package pdftex.def Info: images/sourcetreelogo.png  used on input line 1808. on
@@ -2114,7 +2115,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-<images/auth.png, id=282, 949.5475pt x 796.9775pt>
+<images/auth.png, id=286, 949.5475pt x 796.9775pt>
 File: images/auth.png Graphic file (type png)
 <use images/auth.png>
 Package pdftex.def Info: images/auth.png  used on input line 2247. on input lin
@@ -2133,7 +2134,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47 <./images/auth.png>]
-<images/manageAccount.png, id=288, 1012.78375pt x 587.19376pt>
+<images/manageAccount.png, id=291, 1012.78375pt x 587.19376pt>
 File: images/manageAccount.png Graphic file (type png)
 <use images/manageAccount.png>
 Package pdftex.def Info: images/manageAccount.png  used on input line 2256. on 
@@ -2150,7 +2151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2257--2257
  []\OT1/ptm/m/n/12 Figure 4.2: |Use case edit ac-count| 
  []
 
-<images/editPastry.png, id=289, 1101.11375pt x 1399.2275pt>
+<images/editPastry.png, id=292, 1101.11375pt x 1399.2275pt>
 File: images/editPastry.png Graphic file (type png)
 <use images/editPastry.png>
 Package pdftex.def Info: images/editPastry.png  used on input line 2263. on inp
@@ -2176,7 +2177,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [48
 
  <./images/manageAccount.png>]
-<images/ManageProducts.png, id=294, 1134.2375pt x 1229.59375pt>
+<images/ManageProducts.png, id=297, 1134.2375pt x 1229.59375pt>
 File: images/ManageProducts.png Graphic file (type png)
 <use images/ManageProducts.png>
 Package pdftex.def Info: images/ManageProducts.png  used on input line 2271. on
@@ -2252,7 +2253,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [54]
-<images/authSequence.jpg, id=316, 1160.335pt x 1371.1225pt>
+<images/authSequence.jpg, id=319, 1160.335pt x 1371.1225pt>
 File: images/authSequence.jpg Graphic file (type jpg)
 <use images/authSequence.jpg>
 Package pdftex.def Info: images/authSequence.jpg  used on input line 2498. on i
@@ -2276,13 +2277,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55 <./images/authSequence.jpg>]
-<images/manageproduct.jpg, id=320, 1283.79625pt x 1812.7725pt>
+<images/manageproduct.jpg, id=323, 1461.46pt x 1812.7725pt>
 File: images/manageproduct.jpg Graphic file (type jpg)
 <use images/manageproduct.jpg>
 Package pdftex.def Info: images/manageproduct.jpg  used on input line 2518. on 
 input line 2518.
-Package pdftex.def Info: Requested size: 484.20877pt x 683.71584pt on input lin
-e 2518.
+Package pdftex.def Info: Requested size: 484.20877pt x 600.5956pt on input line
+ 2518.
 
 Overfull \hbox (31.24088pt too wide) in paragraph at lines 2518--2519
  [][] 
@@ -2300,9 +2301,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [56]
-Overfull \vbox (14.95895pt too high) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2310,7 +2308,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [57 <./images/manageproduct.jpg>]
-<images/register.png, id=327, 1028.34187pt x 452.4403pt>
+<images/register.png, id=330, 1028.34187pt x 452.4403pt>
 File: images/register.png Graphic file (type png)
 <use images/register.png>
 Package pdftex.def Info: images/register.png  used on input line 2530. on input
@@ -2334,7 +2332,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [58 <./images/register.png>]
-<images/login.png, id=332, 1028.34187pt x 463.7325pt>
+<images/login.png, id=336, 1028.34187pt x 463.7325pt>
 File: images/login.png Graphic file (type png)
 <use images/login.png>
 Package pdftex.def Info: images/login.png  used on input line 2538. on input li
@@ -2351,7 +2349,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2539--2539
  []\OT1/ptm/m/n/12 Figure 4.8: |Lo-gin in-ter-face web| 
  []
 
-<images/reset-password.png, id=333, 1028.34187pt x 460.72125pt>
+<images/reset-password.png, id=337, 1028.34187pt x 460.72125pt>
 File: images/reset-password.png Graphic file (type png)
 <use images/reset-password.png>
 Package pdftex.def Info: images/reset-password.png  used on input line 2545. on
@@ -2377,7 +2375,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [59
 
  <./images/login.png> <./images/reset-password.png>]
-<images/logout.png, id=340, 1371.1225pt x 770.88pt>
+<images/logout.png, id=343, 1371.1225pt x 770.88pt>
 File: images/logout.png Graphic file (type png)
 <use images/logout.png>
 Package pdftex.def Info: images/logout.png  used on input line 2553. on input l
@@ -2389,7 +2387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2554--2554
  []\OT1/ptm/m/n/12 Figure 4.10: |Lo-gout in-ter-face web| 
  []
 
-<images/manageaccountAdmin.png, id=341, 1371.1225pt x 770.88pt>
+<images/manageaccountAdmin.png, id=344, 1371.1225pt x 770.88pt>
 File: images/manageaccountAdmin.png Graphic file (type png)
 <use images/manageaccountAdmin.png>
 Package pdftex.def Info: images/manageaccountAdmin.png  used on input line 2561
@@ -2401,7 +2399,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2562--2562
  []\OT1/ptm/m/n/12 Figure 4.11: |Edit ac-count in-ter-face web| 
  []
 
-<images/pastry-list.png, id=342, 1371.1225pt x 770.88pt>
+<images/pastry-list.png, id=345, 1371.1225pt x 770.88pt>
 File: images/pastry-list.png Graphic file (type png)
 <use images/pastry-list.png>
 Package pdftex.def Info: images/pastry-list.png  used on input line 2569. on in
@@ -2422,7 +2420,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [60
 
  <./images/logout.png> <./images/manageaccountAdmin.png>]
-<images/edit-pastry.png, id=348, 1371.1225pt x 770.88pt>
+<images/edit-pastry.png, id=351, 1371.1225pt x 770.88pt>
 File: images/edit-pastry.png Graphic file (type png)
 <use images/edit-pastry.png>
 Package pdftex.def Info: images/edit-pastry.png  used on input line 2577. on in
@@ -2434,7 +2432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2578--2578
  []\OT1/ptm/m/n/12 Figure 4.13: |Edit pas-try in-ter-face web| 
  []
 
-<images/productlist.png, id=349, 1371.1225pt x 770.88pt>
+<images/productlist.png, id=352, 1371.1225pt x 770.88pt>
 File: images/productlist.png Graphic file (type png)
 <use images/productlist.png>
 Package pdftex.def Info: images/productlist.png  used on input line 2586. on in
@@ -2453,7 +2451,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [61 <./images/pastry-list.png> <./images/edit-pastry.png>]
-<images/addproduct.png, id=355, 1371.1225pt x 770.88pt>
+<images/addproduct.png, id=358, 1371.1225pt x 770.88pt>
 File: images/addproduct.png Graphic file (type png)
 <use images/addproduct.png>
 Package pdftex.def Info: images/addproduct.png  used on input line 2593. on inp
@@ -2465,7 +2463,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2594--2594
  []\OT1/ptm/m/n/12 Figure 4.15: |Add prod-uct in-ter-face| 
  []
 
-<images/editproduct.png, id=356, 1371.1225pt x 770.88pt>
+<images/editproduct.png, id=359, 1371.1225pt x 770.88pt>
 File: images/editproduct.png Graphic file (type png)
 <use images/editproduct.png>
 Package pdftex.def Info: images/editproduct.png  used on input line 2601. on in
@@ -2496,7 +2494,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [63 <./images/editproduct.png>]
-<images/accountnotconnectedlogin.jpg, id=366, 539.76656pt x 1008.76875pt>
+<images/accountnotconnectedlogin.jpg, id=369, 539.76656pt x 1008.76875pt>
 File: images/accountnotconnectedlogin.jpg Graphic file (type jpg)
 <use images/accountnotconnectedlogin.jpg>
 Package pdftex.def Info: images/accountnotconnectedlogin.jpg  used on input lin
@@ -2517,7 +2515,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [64
 
  <./images/accountnotconnectedlogin.jpg>]
-<images/registermobile.jpg, id=370, 533.74406pt x 808.52063pt>
+<images/registermobile.jpg, id=374, 533.74406pt x 808.52063pt>
 File: images/registermobile.jpg Graphic file (type jpg)
 <use images/registermobile.jpg>
 Package pdftex.def Info: images/registermobile.jpg  used on input line 2624. on
@@ -2529,7 +2527,7 @@ Underfull \hbox (badness 1484) in paragraph at lines 2624--2624
  []\OT1/ptm/m/n/10 (a) |Reg-is-ter in-ter-face| 
  []
 
-<images/loginmobile.jpg, id=371, 539.01375pt x 1005.00468pt>
+<images/loginmobile.jpg, id=375, 539.01375pt x 1005.00468pt>
 File: images/loginmobile.jpg Graphic file (type jpg)
 <use images/loginmobile.jpg>
 Package pdftex.def Info: images/loginmobile.jpg  used on input line 2626. on in
@@ -2555,14 +2553,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [65
 
  <./images/registermobile.jpg> <./images/loginmobile.jpg>]
-<images/profilemobile.jpg, id=376, 539.76656pt x 1004.25188pt>
+<images/profilemobile.jpg, id=379, 539.76656pt x 1004.25188pt>
 File: images/profilemobile.jpg Graphic file (type jpg)
 <use images/profilemobile.jpg>
 Package pdftex.def Info: images/profilemobile.jpg  used on input line 2637. on 
 input line 2637.
 Package pdftex.def Info: Requested size: 199.16928pt x 370.55602pt on input lin
 e 2637.
-<images/editprofilemobile.jpg, id=377, 539.76656pt x 1001.99344pt>
+<images/editprofilemobile.jpg, id=380, 539.76656pt x 1001.99344pt>
 File: images/editprofilemobile.jpg Graphic file (type jpg)
 <use images/editprofilemobile.jpg>
 Package pdftex.def Info: images/editprofilemobile.jpg  used on input line 2639.
@@ -2588,7 +2586,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [66
 
  <./images/profilemobile.jpg> <./images/editprofilemobile.jpg>]
-<images/resetpasswordmobile.jpg, id=381, 539.76656pt x 1017.8025pt>
+<images/resetpasswordmobile.jpg, id=384, 539.76656pt x 1017.8025pt>
 File: images/resetpasswordmobile.jpg Graphic file (type jpg)
 <use images/resetpasswordmobile.jpg>
 Package pdftex.def Info: images/resetpasswordmobile.jpg  used on input line 264
@@ -2609,14 +2607,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [67
 
  <./images/resetpasswordmobile.jpg>]
-<images/pastriesListmobile.jpg, id=385, 539.01375pt x 1007.26312pt>
+<images/pastriesListmobile.jpg, id=388, 539.01375pt x 1007.26312pt>
 File: images/pastriesListmobile.jpg Graphic file (type jpg)
 <use images/pastriesListmobile.jpg>
 Package pdftex.def Info: images/pastriesListmobile.jpg  used on input line 2660
 . on input line 2660.
 Package pdftex.def Info: Requested size: 199.16928pt x 372.1897pt on input line
  2660.
-<images/showpastrymobile.jpg, id=386, 472.01344pt x 891.33pt>
+<images/showpastrymobile.jpg, id=389, 472.01344pt x 891.33pt>
 File: images/showpastrymobile.jpg Graphic file (type jpg)
 <use images/showpastrymobile.jpg>
 Package pdftex.def Info: images/showpastrymobile.jpg  used on input line 2662. 
@@ -2739,7 +2737,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [72]
-<images/manageClients.png, id=403, 804.00375pt x 780.9175pt>
+<images/manageClients.png, id=406, 804.00375pt x 780.9175pt>
 File: images/manageClients.png Graphic file (type png)
 <use images/manageClients.png>
 Package pdftex.def Info: images/manageClients.png  used on input line 3045. on 
@@ -2756,7 +2754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3046--3046
  []\OT1/ptm/m/n/12 Figure 5.1: |Use case Man-age clients| 
  []
 
-<images/manageComplains.png, id=404, 821.0675pt x 700.6175pt>
+<images/manageComplains.png, id=407, 821.0675pt x 700.6175pt>
 File: images/manageComplains.png Graphic file (type png)
 <use images/manageComplains.png>
 Package pdftex.def Info: images/manageComplains.png  used on input line 3053. o
@@ -2789,7 +2787,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [74 <./images/manageComplains.png>]
-<images/manageReports.png, id=413, 732.7375pt x 540.0175pt>
+<images/manageReports.png, id=416, 732.7375pt x 540.0175pt>
 File: images/manageReports.png Graphic file (type png)
 <use images/manageReports.png>
 Package pdftex.def Info: images/manageReports.png  used on input line 3062. on 
@@ -2801,7 +2799,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3063--3063
  []\OT1/ptm/m/n/12 Figure 5.3: |Use case Man-age re-ports| 
  []
 
-<images/manageEvents.png, id=414, 692.5875pt x 394.47375pt>
+<images/manageEvents.png, id=417, 692.5875pt x 394.47375pt>
 File: images/manageEvents.png Graphic file (type png)
 <use images/manageEvents.png>
 Package pdftex.def Info: images/manageEvents.png  used on input line 3070. on i
@@ -2867,15 +2865,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [79]
-<images/managecomplains.jpg, id=433, 1514.65875pt x 1260.71pt>
+<images/managecomplains.jpg, id=436, 1743.51375pt x 1260.71pt>
 File: images/managecomplains.jpg Graphic file (type jpg)
 <use images/managecomplains.jpg>
 Package pdftex.def Info: images/managecomplains.jpg  used on input line 3286. o
 n input line 3286.
-Package pdftex.def Info: Requested size: 505.89423pt x 578.16386pt on input lin
+Package pdftex.def Info: Requested size: 505.87209pt x 578.16386pt on input lin
 e 3286.
 
-Overfull \hbox (52.92633pt too wide) in paragraph at lines 3286--3287
+Overfull \hbox (52.90419pt too wide) in paragraph at lines 3286--3287
  [][] 
  []
 
@@ -2891,15 +2889,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [80 <./images/managecomplains.jpg>]
-<images/managerepors.jpg, id=437, 1412.27625pt x 1029.8475pt>
+<images/managerepors.jpg, id=440, 1695.33376pt x 1039.885pt>
 File: images/managerepors.jpg Graphic file (type jpg)
 <use images/managerepors.jpg>
 Package pdftex.def Info: images/managerepors.jpg  used on input line 3295. on i
 nput line 3295.
-Package pdftex.def Info: Requested size: 505.89777pt x 542.02946pt on input lin
+Package pdftex.def Info: Requested size: 505.88785pt x 542.02856pt on input lin
 e 3295.
 
-Overfull \hbox (52.92987pt too wide) in paragraph at lines 3295--3296
+Overfull \hbox (52.91995pt too wide) in paragraph at lines 3295--3296
  [][] 
  []
 
@@ -2917,7 +2915,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [81
 
  <./images/managerepors.jpg>]
-<images/listclients.png, id=441, 1371.1225pt x 770.88pt>
+<images/listclients.png, id=444, 1371.1225pt x 770.88pt>
 File: images/listclients.png Graphic file (type png)
 <use images/listclients.png>
 Package pdftex.def Info: images/listclients.png  used on input line 3308. on in
@@ -2943,7 +2941,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [82
 
  <./images/listclients.png>]
-<images/complainslist.png, id=446, 1371.1225pt x 770.88pt>
+<images/complainslist.png, id=450, 1371.1225pt x 770.88pt>
 File: images/complainslist.png Graphic file (type png)
 <use images/complainslist.png>
 Package pdftex.def Info: images/complainslist.png  used on input line 3317. on 
@@ -2955,7 +2953,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3318--3318
  []\OT1/ptm/m/n/12 Figure 5.8: |List of com-plains in-ter-face web| 
  []
 
-<images/replytocomplain.png, id=447, 1371.1225pt x 770.88pt>
+<images/replytocomplain.png, id=451, 1371.1225pt x 770.88pt>
 File: images/replytocomplain.png Graphic file (type png)
 <use images/replytocomplain.png>
 Package pdftex.def Info: images/replytocomplain.png  used on input line 3324. o
@@ -2967,7 +2965,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3325--3325
  []\OT1/ptm/m/n/12 Figure 5.9: |Re-ply to com-plain in-ter-face web| 
  []
 
-<images/listreports.png, id=448, 1371.1225pt x 770.88pt>
+<images/listreports.png, id=452, 1371.1225pt x 770.88pt>
 File: images/listreports.png Graphic file (type png)
 <use images/listreports.png>
 Package pdftex.def Info: images/listreports.png  used on input line 3333. on in
@@ -2988,7 +2986,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [83
 
  <./images/complainslist.png> <./images/replytocomplain.png>]
-<images/listevents.png, id=455, 1371.1225pt x 770.88pt>
+<images/listevents.png, id=458, 1371.1225pt x 770.88pt>
 File: images/listevents.png Graphic file (type png)
 <use images/listevents.png>
 Package pdftex.def Info: images/listevents.png  used on input line 3342. on inp
@@ -3000,7 +2998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3343--3343
  []\OT1/ptm/m/n/12 Figure 5.11: |Cal-en-der in-ter-face web| 
  []
 
-<images/addevent.png, id=456, 1371.1225pt x 770.88pt>
+<images/addevent.png, id=459, 1371.1225pt x 770.88pt>
 File: images/addevent.png Graphic file (type png)
 <use images/addevent.png>
 Package pdftex.def Info: images/addevent.png  used on input line 3350. on input
@@ -3031,7 +3029,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [85 <./images/addevent.png>]
-<images/listcomplainsmobile.jpg, id=466, 722.7pt x 1485.55pt>
+<images/listcomplainsmobile.jpg, id=469, 722.7pt x 1485.55pt>
 File: images/listcomplainsmobile.jpg Graphic file (type jpg)
 <use images/listcomplainsmobile.jpg>
 Package pdftex.def Info: images/listcomplainsmobile.jpg  used on input line 336
@@ -3316,7 +3314,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [90]
-<images/manageReviews.png, id=483, 684.5575pt x 427.5975pt>
+<images/manageReviews.png, id=486, 684.5575pt x 427.5975pt>
 File: images/manageReviews.png Graphic file (type png)
 <use images/manageReviews.png>
 Package pdftex.def Info: images/manageReviews.png  used on input line 3763. on 
@@ -3328,7 +3326,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3764--3764
  []\OT1/ptm/m/n/12 Figure 6.1: |Man-age re-views use case| 
  []
 
-<images/manageratings.png, id=484, 684.5575pt x 427.5975pt>
+<images/manageratings.png, id=487, 684.5575pt x 427.5975pt>
 File: images/manageratings.png Graphic file (type png)
 <use images/manageratings.png>
 Package pdftex.def Info: images/manageratings.png  used on input line 3771. on 
@@ -3340,7 +3338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3772--3772
  []\OT1/ptm/m/n/12 Figure 6.2: |Man-age rat-ings use case| 
  []
 
-<images/statistics.png, id=485, 676.5275pt x 596.2275pt>
+<images/statistics.png, id=488, 676.5275pt x 596.2275pt>
 File: images/statistics.png Graphic file (type png)
 <use images/statistics.png>
 Package pdftex.def Info: images/statistics.png  used on input line 3779. on inp
@@ -3371,7 +3369,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [92 <./images/statistics.png>]
-<images/manageCart.png, id=495, 732.7375pt x 483.8075pt>
+<images/manageCart.png, id=498, 732.7375pt x 483.8075pt>
 File: images/manageCart.png Graphic file (type png)
 <use images/manageCart.png>
 Package pdftex.def Info: images/manageCart.png  used on input line 3789. on inp
@@ -3383,7 +3381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3790--3790
  []\OT1/ptm/m/n/12 Figure 6.4: |Man-age cart use case| 
  []
 
-<images/manageorders.png, id=496, 748.7975pt x 564.1075pt>
+<images/manageorders.png, id=499, 748.7975pt x 564.1075pt>
 File: images/manageorders.png Graphic file (type png)
 <use images/manageorders.png>
 Package pdftex.def Info: images/manageorders.png  used on input line 3798. on i
@@ -3404,7 +3402,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [93
 
  <./images/manageCart.png> <./images/manageorders.png>]
-<images/manageporders.png, id=502, 676.5275pt x 475.7775pt>
+<images/manageporders.png, id=505, 676.5275pt x 475.7775pt>
 File: images/manageporders.png Graphic file (type png)
 <use images/manageporders.png>
 Package pdftex.def Info: images/manageporders.png  used on input line 3808. on 
@@ -3474,12 +3472,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [97]
-<images/manageCartSeq.jpg, id=517, 1029.8475pt x 989.6975pt>
+<images/manageCartSeq.jpg, id=520, 1140.26pt x 999.735pt>
 File: images/manageCartSeq.jpg Graphic file (type jpg)
 <use images/manageCartSeq.jpg>
 Package pdftex.def Info: images/manageCartSeq.jpg  used on input line 4108. on 
 input line 4108.
-Package pdftex.def Info: Requested size: 505.89pt x 486.16414pt on input line 4
+Package pdftex.def Info: Requested size: 505.89pt x 443.54588pt on input line 4
 108.
 
 Overfull \hbox (52.9221pt too wide) in paragraph at lines 4108--4109
@@ -3505,15 +3503,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [99 <./images/manageCartSeq.jpg>]
-<images/manageOrdersSeq.jpg, id=524, 1402.23875pt x 1160.335pt>
+<images/manageOrdersSeq.jpg, id=527, 1682.285pt x 1160.335pt>
 File: images/manageOrdersSeq.jpg Graphic file (type jpg)
 <use images/manageOrdersSeq.jpg>
 Package pdftex.def Info: images/manageOrdersSeq.jpg  used on input line 4117. o
 n input line 4117.
-Package pdftex.def Info: Requested size: 505.8754pt x 505.8925pt on input line 
-4117.
+Package pdftex.def Info: Requested size: 505.89587pt x 505.8925pt on input line
+ 4117.
 
-Overfull \hbox (52.9075pt too wide) in paragraph at lines 4117--4118
+Overfull \hbox (52.92798pt too wide) in paragraph at lines 4117--4118
  [][] 
  []
 
@@ -3554,7 +3552,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [101]
-<images/orderslist.png, id=532, 1371.1225pt x 770.88pt>
+<images/orderslist.png, id=535, 1371.1225pt x 770.88pt>
 File: images/orderslist.png Graphic file (type png)
 <use images/orderslist.png>
 Package pdftex.def Info: images/orderslist.png  used on input line 4137. on inp
@@ -3566,7 +3564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4138--4138
  []\OT1/ptm/m/n/12 Figure 6.10: |List of or-ders In-ter-face web| 
  []
 
-<images/changestate.png, id=533, 1371.1225pt x 770.88pt>
+<images/changestate.png, id=536, 1371.1225pt x 770.88pt>
 File: images/changestate.png Graphic file (type png)
 <use images/changestate.png>
 Package pdftex.def Info: images/changestate.png  used on input line 4144. on in
@@ -3578,7 +3576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 4145--4145
  []\OT1/ptm/m/n/12 Figure 6.11: |Edit or-der In-ter-face web| 
  []
 
-<images/orderlistmobile.jpg, id=534, 722.7pt x 1485.55pt>
+<images/orderlistmobile.jpg, id=537, 722.7pt x 1485.55pt>
 File: images/orderlistmobile.jpg Graphic file (type jpg)
 <use images/orderlistmobile.jpg>
 Package pdftex.def Info: images/orderlistmobile.jpg  used on input line 4155. o
@@ -3624,7 +3622,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 pdfTeX warning: pdflatex.exe (file ./Abstract.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Abstract.pdf, id=549, pagebox=cropbox, 597.55246pt x 845.07718pt>
+<Abstract.pdf, id=552, pagebox=cropbox, 597.55246pt x 845.07718pt>
 File: Abstract.pdf Graphic file (type pdf)
 <use Abstract.pdf>
 Package pdftex.def Info: Abstract.pdf  used on input line 4217. on input line 4
@@ -3649,7 +3647,7 @@ rsion <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Abstract.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<Abstract.pdf, id=552, page=1, pagebox=cropbox, 597.55246pt x 845.07718pt>
+<Abstract.pdf, id=555, page=1, pagebox=cropbox, 597.55246pt x 845.07718pt>
 File: Abstract.pdf Graphic file (type pdf)
 <use Abstract.pdf, page 1>
 Package pdftex.def Info: Abstract.pdf , page1 used on input line 4217. on input
@@ -3707,9 +3705,9 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/
 times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb
 >
-Output written on report.pdf (121 pages, 6557153 bytes).
+Output written on report.pdf (122 pages, 6781749 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
+ 602 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  441 words of extra memory for PDF output out of 10000 (max. 10000000)
 
